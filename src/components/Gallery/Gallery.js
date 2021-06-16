@@ -49,19 +49,19 @@ function Gallery() {
           /
           <TagButton
             name="Outlet"
-            tagActive={tag === "new" ? true : false}
+            tagActive={tag === "Outlet" ? true : false}
             handleSetTag={setTag}
           />{" "}
           /
           <TagButton
             name="Food"
-            tagActive={tag === "free" ? true : false}
+            tagActive={tag === "Food" ? true : false}
             handleSetTag={setTag}
           />{" "}
           /
           <TagButton
             name="Videos"
-            tagActive={tag === "pro" ? true : false}
+            tagActive={tag === "Videos" ? true : false}
             handleSetTag={setTag}
           />
         </div>

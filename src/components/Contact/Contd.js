@@ -1,9 +1,9 @@
 import React from "react";
-import { FaEnvelope } from "react-icons/fa";
-import { FaMobileAlt } from "react-icons/fa";
-import { FaPhone } from "react-icons/fa";
 import "./Contd.css";
 import { Container, Row, Col } from "react-bootstrap";
+import fb from "../Home/images/facebook.png";
+import insta from "../Home/images/instagram.png";
+import twitter from "../Home/images/twitter.png";
 
 const Contd = () => {
   return (
@@ -13,19 +13,7 @@ const Contd = () => {
         <Col md={6}>
           <div id="con-card">
             <div className="directors">
-              <h2 className="h2-title">DIRECTORS</h2>
-              <h4>Mr. Amit Shital</h4>
-              <p>
-                <FaMobileAlt /> +91 98704 05545
-                <br />
-                <FaEnvelope /> amit@omganeshaya.c
-              </p>
-              <h4>Mr. Sumit Shital</h4>
-              <p>
-                <FaMobileAlt /> +91 98217 87604
-                <br />
-                <FaEnvelope /> sumit@omganeshaya.com
-              </p>
+              <h2 className="h2-title">Atti Square LLP</h2>
               <div className="address">
                 <h2 className="h2-title">ADDRESS1</h2>
 
@@ -40,6 +28,23 @@ const Contd = () => {
                 </p>
               </div>
             </div>
+            <ul className="social-icons">
+              <li>
+                <a href="/">
+                  <img src={fb} alt="" />
+                </a>
+              </li>
+              <li>
+                <a href="/">
+                  <img src={twitter} alt="" />
+                </a>
+              </li>
+              <li>
+                <a href="/">
+                  <img src={insta} alt="" />
+                </a>
+              </li>
+            </ul>
           </div>
         </Col>
         <Col md={6}>

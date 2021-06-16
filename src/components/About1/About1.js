@@ -21,7 +21,7 @@ const About1 = () => {
           </p>
         </div>
         <div className="child-img">
-          <img src={shawarma} alt="" />
+          <img id="side-image" src={shawarma} alt="" />
         </div>
       </div>
 
@@ -32,7 +32,7 @@ const About1 = () => {
 
       <div className="parent1">
         <div className="child-img">
-          <img src={shawarma} alt="" />
+          <img id="side-image" src={shawarma} alt="" />
         </div>
         <div className="child2-content">
           <h2 className="about2-title">How We Do It</h2>

@@ -27,7 +27,7 @@ iframe:hover {
 #con-card {
   align-items: baseline;
   width: 100%;
-  height: 60vh;
+  height: 40vh;
   padding: 5%;
   border-radius: 20px 0 20px 0;
   background: linear-gradient(#f0bc1d, #f0bc1d);
@@ -43,8 +43,50 @@ iframe:hover {
 }
 .directors,
 .address {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   text-align: center;
+
   /* z-index: 1; */
+}
+
+.social-icons {
+  position: relative;
+  top: 20px;
+  right: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icons li {
+  list-style: none;
+}
+
+.social-icons li a {
+  display: inline-block;
+  margin-left: 15px;
+  background-color: #222;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: 0.2% ease-in-out;
+}
+
+.social-icons li a:hover {
+  background-color: #f0bc1d;
+  transform: translateY(-10px);
+}
+
+.social-icons li a img {
+  filter: invert(1);
+  transform: scale(0.5);
+}
+
+@media only screen and (max-width: 600px) {
+  #con-card {
+    padding: 5%;
+    height: 100%;
+  }
 }
