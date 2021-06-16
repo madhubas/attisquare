@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700;800&display=swap");
+
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+} */
+section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section .circle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #f0bc1d;
+  clip-path: circle(70% at right -20%);
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 0;
+  z-index: 2;
+  background-color: #f0bc1d;
+}
+
+header .logo {
+  position: relative;
+  height: 30px;
+  width: auto;
+}
+header img {
+  /* filter: invert(1); */
+}
+
+header .navigation {
+  position: relative;
+  display: flex;
+}
+
+header .navigation li {
+  list-style: none;
+}
+
+header .navigation li a {
+  display: inline-block;
+  color: #161616;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 20px;
+  position: relative;
+  padding: 1rem 0;
+}
+
+/* header .navigation li a:hover {
+  display: inline-block;
+  background-color: transparent;
+} */
+header .navigation li a::before,
+header .navigation li a::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: rgb(12, 12, 12);
+  left: 0;
+  transform: scaleX(0);
+  transition: all 0.5s;
+}
+
+header .navigation li a::before {
+  top: 0;
+  transform-origin: left;
+}
+
+header .navigation li a::after {
+  bottom: 0;
+  transform-origin: right;
+}
+
+header .navigation li a:hover::before,
+header .navigation li a:hover::after {
+  transform: scaleX(1);
+}
+
+.content {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content .textBox {
+  position: relative;
+  max-width: 500px;
+  margin-right: 20px;
+}
+.content .textBox h2 {
+  color: #161616;
+  font-size: 3em;
+  margin-bottom: 10px;
+  line-height: 1.4em;
+  font-weight: 700;
+}
+
+.content .textBox p {
+  text-align: left;
+  color: #161616;
+}
+.content .textBox a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 8px 20px;
+  background: #f0bc1d;
+  color: #161616;
+  border-radius: 40px;
+  font-weight: 500;
+  letter-spacing: 1;
+  text-decoration: none;
+}
+.content .textBox a:hover {
+  color: #f0bc1d;
+  background-color: #000;
+}
+
+.social {
+  position: absolute;
+  bottom: 80px;
+  left: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social li {
+  list-style: none;
+}
+
+.social li a {
+  display: inline-block;
+  margin-left: 15px;
+  background-color: #222;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: 0.2% ease-in-out;
+}
+
+.social li a:hover {
+  background-color: #f0bc1d;
+  transform: translateY(-10px);
+}
+
+.social li a img {
+  filter: invert(1);
+  transform: scale(0.5);
+}
+
+@media (max-width: 991px) {
+  header {
+    padding: 20px;
+  }
+
+  section {
+    padding: 150px 40px;
+  }
+
+  .social {
+    bottom: 30px;
+    left: 40px;
+  }
+  .content {
+    flex-direction: column;
+  }
+
+  .content .textBox,
+  .content .imgBox {
+    max-width: 100%;
+  }
+
+  .content .imgBox img {
+    height: 400px;
+  }
+  header .navigation {
+    display: none;
+  }
+
+  header .navigation.active {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #f0bc1d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+  }
+  header .navigation.active li {
+    margin: 20px 0;
+  }
+  header .navigation.active li a {
+    font-size: 1.5rem;
+  }
+  header .navigation.active li a:hover {
+    color: rgb(255, 255, 255);
+  }
+  .toggle {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background: url("./images/menu.png");
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 10000;
+  }
+
+  .toggle.active {
+    position: fixed;
+    right: 40px;
+    background: url("./images/close.png");
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .content .imgBox img {
+    width: 100%;
+  }
+}

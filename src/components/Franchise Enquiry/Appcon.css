@@ -1,0 +1,96 @@
+#fieldset {
+  margin-top: 4%;
+  text-align: center;
+  color: rgb(243, 243, 243);
+
+  font-size: 18px;
+}
+.col {
+  background-color: #000000f5;
+  text-align: center;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2),
+    0 20px 20px 0 rgba(0, 0, 0, 0.19);
+  max-width: 700px;
+  height: 720px;
+  margin: auto;
+  margin-top: 15rem;
+  display: block;
+  border-radius: 40px 0 40px 0;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+#contact-title {
+  color: rgb(253, 253, 253);
+}
+
+#name {
+  width: 85%;
+  padding: 10px 10px;
+  margin: 3%;
+  display: ruby-base;
+  border: none;
+  border-bottom: 2px solid rgba(243, 238, 238, 0.7);
+  background-color: transparent;
+  color: #00000098;
+  align-content: center;
+  box-sizing: border-box;
+}
+#contact-box {
+  background: #f0bc1d;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+#left {
+  width: 85%;
+  padding: 12px 13px;
+  margin: 3%;
+  display: ruby-base;
+  border: none;
+  border-bottom: 2px solid rgba(243, 238, 238, 0.7);
+  color: #19273498;
+  background-color: transparent;
+
+  box-sizing: border-box;
+}
+
+#message {
+  width: 85%;
+  height: 80px;
+  padding: 12px 13px;
+  margin: 3%;
+  display: ruby-base;
+  /* border: 2px solid rgba(243, 238, 238, 0.7); */
+  background-color: transparent;
+  color: #a5a5a598;
+
+  font-size: 100%;
+  border: none;
+
+  border-bottom: 2px solid rgba(243, 238, 238, 0.7);
+  box-sizing: border-box;
+}
+.but {
+  background-color: white;
+  padding: 12px 13px;
+  margin-left: 40%;
+  border: none;
+  border-radius: 10px 0px 10px 0px;
+  color: #f0bc1d;
+}
+.but:hover {
+  background-color: #f0bc1d;
+  color: white;
+}
+
+.form-main {
+  margin-top: 4%;
+  margin-left: 8%;
+  text-align: left;
+}
+
+@media (max-width: 1024px) {
+  col {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+}
