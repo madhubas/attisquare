@@ -27,7 +27,7 @@ const FirstSection = () => {
         </div>
         <ul className="social">
           <li>
-            <a href="/">
+            <a href="https://www.facebook.com/attisquare/" target="_blank">
               <img src={fb} alt="" />
             </a>
           </li>
@@ -37,7 +37,11 @@ const FirstSection = () => {
             </a>
           </li>
           <li>
-            <a href="/">
+            <a
+              href="https://www.instagram.com/attisquare/"
+              className="link"
+              target="_blank"
+            >
               <img src={insta} alt="" />
             </a>
           </li>

@@ -1,34 +1,33 @@
 import React from "react";
 import "./MenuPage.css";
-import { Row, Col, Container } from "react-bootstrap";
 
 const MenuPage = () => {
   return (
     <div>
       <h2 className="menu-title">Menu</h2>
-      <ul class="cards">
+      <ul className="cards">
         <li>
-          <a href="" class="card">
+          <a href="#" className="card">
             <img
               src="https://i.imgur.com/2DhmtJ4.jpg"
-              class="card__image"
+              className="card__image"
               alt=""
             />
-            <div class="card__overlay">
-              <div class="card__header">
-                {/* <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
+            <div className="card__overlay">
+              <div className="card__header">
+                {/* <svg className="card__arc" xmlns="http://www.w3.org/2000/svg">
                   <path />
                 </svg> */}
                 {/* <img
-                  class="card__thumb"
+                  className="card__thumb"
                   src="https://i.imgur.com/7D7I6dI.png"
                   alt=""
                 /> */}
-                <div class="card__header-text">
-                  <h3 class="card__title">VIEW DETAILS</h3>
+                <div className="card__header-text">
+                  <h3 className="card__title">VIEW DETAILS</h3>
                 </div>
               </div>
-              <p class="card__description">
+              <p className="card__description">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Asperiores, blanditiis?
               </p>
@@ -36,28 +35,28 @@ const MenuPage = () => {
           </a>
         </li>
         <li>
-          <a href="" class="card">
+          <a href="#" className="card">
             <img
               src="https://i.imgur.com/2DhmtJ4.jpg"
-              class="card__image"
+              className="card__image"
               alt=""
             />
-            <div class="card__overlay">
-              {/* <div class="card__header">
-                <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
+            <div className="card__overlay">
+              {/* <div className="card__header">
+                <svg className="card__arc" xmlns="http://www.w3.org/2000/svg">
                   <path />
                 </svg>
                 <img
-                  class="card__thumb"
+                  className="card__thumb"
                   src="https://i.imgur.com/sjLMNDM.png"
                   alt=""
                 />
-                <div class="card__header-text">
-                  <h3 class="card__title">kim Cattrall</h3>
-                  <span class="card__status">3 hours ago</span>
+                <div className="card__header-text">
+                  <h3 className="card__title">kim Cattrall</h3>
+                  <span className="card__status">3 hours ago</span>
                 </div>
               </div> */}
-              <p class="card__description">
+              <p className="card__description">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Asperiores, blanditiis?
               </p>
@@ -65,31 +64,31 @@ const MenuPage = () => {
           </a>
         </li>
         <li>
-          <a href="" class="card">
+          <a href="#" className="card">
             <img
               src="https://i.imgur.com/2DhmtJ4.jpg"
-              class="card__image"
+              className="card__image"
               alt=""
             />
-            <div class="card__overlay">
-              <div class="card__header">
-                {/* <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
+            <div className="card__overlay">
+              <div className="card__header">
+                {/* <svg className="card__arc" xmlns="http://www.w3.org/2000/svg">
                   <path />
                 </svg>
                 <img
-                  class="card__thumb"
+                  className="card__thumb"
                   src="https://i.imgur.com/7D7I6dI.png"
                   alt=""
                 />
-                <div class="card__header-text">
-                  <h3 class="card__title">Jessica Parker</h3>
-                  <span class="card__tagline">
+                <div className="card__header-text">
+                  <h3 className="card__title">Jessica Parker</h3>
+                  <span className="card__tagline">
                     Lorem ipsum dolor sit amet consectetur
                   </span>
-                  <span class="card__status">1 hour ago</span>
+                  <span className="card__status">1 hour ago</span>
                 </div> */}
               </div>
-              <p class="card__description">
+              <p className="card__description">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Asperiores, blanditiis?
               </p>
@@ -97,28 +96,28 @@ const MenuPage = () => {
           </a>
         </li>
         <li>
-          <a href="" class="card">
+          <a href="#" className="card">
             <img
               src="https://i.imgur.com/2DhmtJ4.jpg"
-              class="card__image"
+              className="card__image"
               alt=""
             />
-            <div class="card__overlay">
-              <div class="card__header">
-                {/* <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
+            <div className="card__overlay">
+              <div className="card__header">
+                {/* <svg className="card__arc" xmlns="http://www.w3.org/2000/svg">
                   <path />
                 </svg>
                 <img
-                  class="card__thumb"
+                  className="card__thumb"
                   src="https://i.imgur.com/sjLMNDM.png"
                   alt=""
                 />
-                <div class="card__header-text">
-                  <h3 class="card__title">kim Cattrall</h3>
-                  <span class="card__status">3 hours ago</span>
+                <div className="card__header-text">
+                  <h3 className="card__title">kim Cattrall</h3>
+                  <span className="card__status">3 hours ago</span>
                 </div> */}
               </div>
-              <p class="card__description">
+              <p className="card__description">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Asperiores, blanditiis?
               </p>
@@ -126,28 +125,28 @@ const MenuPage = () => {
           </a>
         </li>
         <li>
-          <a href="" class="card">
+          <a href="#" className="card">
             <img
               src="https://i.imgur.com/2DhmtJ4.jpg"
-              class="card__image"
+              className="card__image"
               alt=""
             />
-            <div class="card__overlay">
-              <div class="card__header">
-                {/* <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
+            <div className="card__overlay">
+              <div className="card__header">
+                {/* <svg className="card__arc" xmlns="http://www.w3.org/2000/svg">
                   <path />
                 </svg>
                 <img
-                  class="card__thumb"
+                  className="card__thumb"
                   src="https://i.imgur.com/sjLMNDM.png"
                   alt=""
                 />
-                <div class="card__header-text">
-                  <h3 class="card__title">kim Cattrall</h3>
-                  <span class="card__status">3 hours ago</span>
+                <div className="card__header-text">
+                  <h3 className="card__title">kim Cattrall</h3>
+                  <span className="card__status">3 hours ago</span>
                 </div> */}
               </div>
-              <p class="card__description">
+              <p className="card__description">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Asperiores, blanditiis?
               </p>
@@ -155,28 +154,28 @@ const MenuPage = () => {
           </a>
         </li>
         <li>
-          <a href="" class="card">
+          <a href="" className="card">
             <img
               src="https://i.imgur.com/2DhmtJ4.jpg"
-              class="card__image"
+              className="card__image"
               alt=""
             />
-            <div class="card__overlay">
-              <div class="card__header">
-                {/* <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
+            <div className="card__overlay">
+              <div className="card__header">
+                {/* <svg className="card__arc" xmlns="http://www.w3.org/2000/svg">
                   <path />
                 </svg>
                 <img
-                  class="card__thumb"
+                  className="card__thumb"
                   src="https://i.imgur.com/sjLMNDM.png"
                   alt=""
                 />
-                <div class="card__header-text">
-                  <h3 class="card__title">kim Cattrall</h3>
-                  <span class="card__status">3 hours ago</span>
+                <div className="card__header-text">
+                  <h3 className="card__title">kim Cattrall</h3>
+                  <span className="card__status">3 hours ago</span>
                 </div> */}
               </div>
-              <p class="card__description">
+              <p className="card__description">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Asperiores, blanditiis?
               </p>

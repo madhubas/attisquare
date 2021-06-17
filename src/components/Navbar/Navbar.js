@@ -1,9 +1,22 @@
-import React from "react";
-import logo from "./atti_logo_-removebg-preview.png";
+import React, { useEffect, useState } from "react";
+import logo from "../Home/images/a2_logo-removebg-preview.png";
 import "../Home/FirstSection.css";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
+  const [pos, setPos] = useState("top");
+
+  useEffect(() => {
+    document.addEventListener("scroll", (e) => {
+      let scrolled = document.scrollingElement.scrollTop;
+      if (scrolled >= 10) {
+        setPos("moved");
+      } else {
+        setPos("top");
+      }
+    });
+  }, []);
+
   var toggleMenu = () => {
     const menuToggle = document.querySelector(".toggle");
     const navigation = document.querySelector(".navigation");
@@ -11,9 +24,18 @@ const Navbar = () => {
     navigation.classList.toggle("active");
   };
 
+  // box-shadow: 1px 10px 58px -13px rgba(0, 0, 0, 0.75);
+  // -webkit-box-shadow: 1px 10px 58px -13px rgba(0, 0, 0, 0.75);
+  // -moz-box-shadow: 1px 10px 58px -13px rgba(0, 0, 0, 0.75);
+
   return (
     <div>
-      <header>
+      <header
+        style={{
+          boxShadow:
+            pos === "top" ? "none" : " 1px 10px 58px -13px rgba(0, 0, 0, 0.75)",
+        }}
+      >
         <Link to="/">
           <img src={logo} className="logo" alt="" />
         </Link>

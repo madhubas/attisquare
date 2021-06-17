@@ -21,9 +21,10 @@
 .text {
   text-align: center;
   padding: 10%;
-  background-image: url("https://c4.wallpaperflare.com/wallpaper/83/507/667/greens-bird-chicken-cheese-meat-hd-wallpaper-preview.jpg");
+  background-image: url("../images/_HVD1304_1.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
 }
 .content-para {

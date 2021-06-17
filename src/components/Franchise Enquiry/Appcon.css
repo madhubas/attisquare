@@ -30,7 +30,7 @@
   border: none;
   border-bottom: 2px solid rgba(243, 238, 238, 0.7);
   background-color: transparent;
-  color: #00000098;
+  color: #f0bc1d;
   align-content: center;
   box-sizing: border-box;
 }
@@ -47,7 +47,8 @@
   display: ruby-base;
   border: none;
   border-bottom: 2px solid rgba(243, 238, 238, 0.7);
-  color: #19273498;
+  color: #f0bc1d;
+
   background-color: transparent;
 
   box-sizing: border-box;
@@ -61,7 +62,7 @@
   display: ruby-base;
   /* border: 2px solid rgba(243, 238, 238, 0.7); */
   background-color: transparent;
-  color: #a5a5a598;
+  color: #f0bc1d;
 
   font-size: 100%;
   border: none;

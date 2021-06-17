@@ -135,10 +135,11 @@
   font-size: 20px;
 }
 #con-left {
+  color: #f0bc1d;
   font-size: 20px;
 }
 .box-o {
-  background: rgb(10, 10, 10);
+  background: hsla(0, 0%, 4%, 0.972);
   box-shadow: 20px 20px 50px rgba(5, 5, 5, 0.705);
 }
 

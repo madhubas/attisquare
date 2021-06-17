@@ -1,6 +1,6 @@
 import React from "react";
 import "./Contd.css";
-import { Container, Row, Col } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 import fb from "../Home/images/facebook.png";
 import insta from "../Home/images/instagram.png";
 import twitter from "../Home/images/twitter.png";
