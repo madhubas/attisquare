@@ -1,4 +1,4 @@
-.container {
+.containers {
   position: relative;
   display: flex;
   justify-content: center;
@@ -9,7 +9,7 @@
   padding-bottom: 2%;
 }
 
-.container .card {
+.containers .card {
   position: relative;
   width: 280px;
   height: 400px;
@@ -26,7 +26,7 @@
   backdrop-filter: blur(5px);
 }
 
-.container .card .contents {
+.containers .card .contents {
   padding: 20px;
   text-align: center;
   transform: translateY(100px);
@@ -34,7 +34,7 @@
   transition: 0.5s;
 }
 
-.container .card .contents .first .imgBx {
+.containers .card .contents .first .imgBx {
   position: relative;
   width: 250px;
   height: 250px;
@@ -44,7 +44,7 @@
   margin: 20px auto;
 }
 
-.container .card .contents .first .imgBx img {
+.containers .card .contents .first .imgBx img {
   /* border-radius: 50%; */
   /* position: absolute; */
   width: 100%;
@@ -52,12 +52,12 @@
   /* object-fit: cover; */
 }
 
-.container .card:hover .contents {
+.containers .card:hover .contents {
   transform: translateY(0px);
   opacity: 1;
 }
 
-.container .card .contents .price {
+.containers .card .contents .price {
   position: absolute;
   top: -50px;
   right: 30px;
@@ -66,13 +66,13 @@
   pointer-events: none;
 }
 
-.container .card .contents h3 {
+.containers .card .contents h3 {
   font-size: 1.3em;
   color: #000;
   z-index: 1;
 }
 
-.container .card .contents p {
+.containers .card .contents p {
   font-size: 1em;
   color: #000;
   font-weight: 300;
@@ -82,22 +82,22 @@
   width: 200px;
   color: #000;
 }
-.container .card .contents .first {
+.containers .card .contents .first {
   position: relative;
   top: -100px;
   left: 0;
   display: block;
 }
 
-.container .card:hover .contents .first {
+.containers .card:hover .contents .first {
   display: none;
 }
 
-.container .card .contents .second {
+.containers .card .contents .second {
   display: none;
 }
 
-.container .card:hover .contents .second {
+.containers .card:hover .contents .second {
   display: block;
 }
 

@@ -1,0 +1,57 @@
+section {
+  min-height: 50vh;
+}
+.content-online {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.div-swiggy {
+  padding: 10%;
+}
+.div-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.div-text h3 {
+  color: aliceblue;
+  margin-bottom: 50px;
+}
+.zomato {
+  color: #ec4654;
+}
+.swiggy {
+  color: #fc8019;
+}
+.div-text button {
+  height: 50px;
+}
+
+.button-zomato {
+  background-color: #ec4654;
+  border: none;
+}
+.button-zomato:hover {
+  background-color: transparent;
+  border: #ec4654 1px solid;
+  color: #000;
+}
+
+.button-swiggy {
+  background-color: #fc8019;
+  border: none;
+}
+.button-swiggy:hover {
+  background-color: transparent;
+  border: #fc8019 1px solid;
+  color: #000;
+}
+
+@media (max-width: 991px) {
+  .content-online {
+    flex-direction: column;
+  }
+}

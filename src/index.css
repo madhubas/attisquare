@@ -3,11 +3,9 @@
 * {
   font-family: "Poppins", sans-serif;
 }
-body {
-  background-color: #000;
-}
 
 ::-webkit-scrollbar {
+  background-color: black;
   width: 12px;
 }
 

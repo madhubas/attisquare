@@ -6,26 +6,11 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 } */
-section {
-  position: relative;
-  width: 100%;
-  min-height: 100vh;
-  padding: 100px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 
-section .circle {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #f0bc1d;
-  clip-path: circle(70% at right -20%);
+.slider-image {
+  height: 80vh;
+  background-position: center;
 }
-
 header {
   position: fixed;
   top: 0;
@@ -99,6 +84,7 @@ header .navigation li a:hover::after {
   transform: scaleX(1);
 }
 
+/* 
 .content {
   position: relative;
   width: 100%;
@@ -138,68 +124,34 @@ header .navigation li a:hover::after {
 .content .textBox a:hover {
   color: black;
   background-color: white;
-}
+} */
 
-.social {
-  position: absolute;
-  bottom: 80px;
-  left: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.carousel-caption {
+  bottom: 28%;
 }
-
-.social li {
-  list-style: none;
+.carousel-indicators {
+  display: none;
 }
-
-.social li a {
-  display: inline-block;
-  margin-left: 15px;
-  background-color: #222;
-  width: 50px;
-  height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  transition: 0.2% ease-in-out;
+.carousel-caption h2 {
+  color: white;
 }
-
-.social li a:hover {
-  background-color: #f0bc1d;
-  transform: translateY(-10px);
-}
-
-.social li a img {
-  filter: invert(1);
-  transform: scale(0.5);
+.carousel-caption p {
+  color: white;
+  font-weight: lighter;
 }
 @media (max-width: 991px) {
-  section {
-    padding: 150px 40px;
-  }
-
-  .social {
-    bottom: 30px;
-    left: 40px;
-  }
-  .content {
-    flex-direction: column;
-  }
-
-  .content .textBox,
-  .content .imgBox {
-    max-width: 100%;
-  }
-
-  .content .imgBox img {
-    height: 50%;
-  }
   header .navigation {
     display: none;
   }
 
+  .slider-image {
+    height: 50vh;
+  }
+
+  .carousel-caption {
+    z-index: 1;
+    bottom: 8%;
+  }
   header .navigation.active {
     position: fixed;
     top: 0;

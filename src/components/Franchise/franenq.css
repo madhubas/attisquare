@@ -6,7 +6,8 @@
   min-height: 100vh;
   flex-direction: row;
   margin-top: 60px;
-  background: #f0bc1d;
+  background: url("../Home/images/_HVD1247_1-min.jpg") center;
+  background-size: cover;
   padding-top: 5%;
   padding-bottom: 5%;
 }
@@ -139,7 +140,7 @@
   font-size: 20px;
 }
 .box-o {
-  background: hsla(0, 0%, 4%, 0.972);
+  background: hsla(0, 0%, 4%, 0.4);
   box-shadow: 20px 20px 50px rgba(5, 5, 5, 0.705);
 }
 

@@ -1,3 +1,36 @@
+.parent {
+  background-image: url("../Home/images/_hvd1304_1\ \(1\).jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.button {
+  height: 50px;
+  background-color: #f0bc1d;
+  border: none;
+}
+
+.text-about {
+  text-align: center;
+  padding: 10%;
+  background-image: url("../Home/images/_hvd1304_1\ \(1\).jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.parent2 {
+  background-image: url("../Home/images/_hvd1304_1\ \(1\).jpg");
+  z-index: 10;
+  background-position: fixed;
+}
+
+.button:hover {
+  background-color: transparent;
+  border: #f0bc1d 1px solid;
+}
+
 .parent1 {
   background-color: #f0bc1d;
   margin-top: 3rem;
@@ -9,9 +42,10 @@
 }
 
 .parent-title {
-  color: white;
+  padding: 1%;
   z-index: 5;
-  margin-top: 12rem;
+  color: white;
+  margin-top: 9rem;
   text-align: center;
 }
 .child-content {
@@ -27,15 +61,9 @@
 
 #side-image1 {
   width: 500px;
-  box-shadow: 10px 11px 44px -10px rgba(0, 0, 0, 1);
-  -webkit-box-shadow: 10px 11px 44px -10px rgba(0, 0, 0, 1);
-  -moz-box-shadow: 10px 11px 44px -10px rgba(0, 0, 0, 1);
 }
 #side-image2 {
   width: 500px;
-  box-shadow: 10px 11px 44px -10px rgba(0, 0, 0, 1);
-  -webkit-box-shadow: 10px 11px 44px -10px rgba(0, 0, 0, 1);
-  -moz-box-shadow: 10px 11px 44px -10px rgba(0, 0, 0, 1);
 }
 
 .child2-content {
@@ -70,5 +98,9 @@
   }
   #side-image2 {
     width: 300px;
+  }
+  .parent-title {
+    margin-top: 8rem;
+    padding-top: 5%;
   }
 }

@@ -2,8 +2,7 @@ import React from "react";
 import person from "./images/_HVD1170.jpg";
 import shawarma from "./images/_HVD1306_1.jpg";
 import "./About1.css";
-import Menu from "../Home/Menu/Menu";
-
+import { Button } from "react-bootstrap";
 const About1 = () => {
   return (
     <div className="parent">
@@ -25,12 +24,23 @@ const About1 = () => {
           <img id="side-image1" src={shawarma} alt="" />
         </div>
       </div>
-
       <div className="parent2">
-        <h2 className="about1-title">What We Do</h2>
-        <Menu />
+        <div className="text-about">
+          <div className="content-para">
+            <h2>Why we Stand Apart</h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi,
+              porro facilis. Libero distinctio nihil ab animi id obcaecati,
+              dicta incidunt rem quod, odio autem aliquid fuga, enim tempora
+              praesentium placeat. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Repellendus possimus illum vel odio ullam?
+              Cupiditate laudantium aliquid, possimus, perferendis dicta
+              voluptas maxime minus alias unde eos minima fuga quam totam.
+            </p>
+            <Button className="button">Read More</Button>
+          </div>
+        </div>
       </div>
-
       <div className="parent1">
         <div className="child-img">
           <img id="side-image2" src={person} alt="" />
