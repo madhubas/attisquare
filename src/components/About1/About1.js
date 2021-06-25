@@ -1,6 +1,6 @@
 import React from "react";
-import person from "./images/_HVD1170.jpg";
-import shawarma from "./images/_HVD1306_1.jpg";
+import shawarma from "./images/_hvd1306_1 (1).webp";
+import person from "./images/_hvd1170 (1).webp";
 import "./About1.css";
 import { Button } from "react-bootstrap";
 const About1 = () => {

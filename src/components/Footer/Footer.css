@@ -1,3 +1,7 @@
+.footer-content {
+  position: relative;
+  top: 87px;
+}
 .footer-text {
   text-align: center;
   padding-top: 15px;

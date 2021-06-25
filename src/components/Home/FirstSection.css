@@ -17,7 +17,7 @@ header {
   left: 0;
   width: 100%;
   padding: 20px 70px;
-  display: flex;
+  display: flex !important;
   justify-content: space-between;
   align-items: center;
   margin: 0;
@@ -125,6 +125,10 @@ header .navigation li a:hover::after {
   color: black;
   background-color: white;
 } */
+.carousel {
+  position: relative;
+  top: 87px;
+}
 
 .carousel-caption {
   bottom: 28%;
@@ -143,7 +147,9 @@ header .navigation li a:hover::after {
   header .navigation {
     display: none;
   }
-
+  .as {
+    display: none;
+  }
   .slider-image {
     height: 50vh;
   }

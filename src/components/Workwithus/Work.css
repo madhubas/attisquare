@@ -1,0 +1,17 @@
+.work-container {
+  margin-top: 85px;
+}
+.work-hero {
+  width: 100%;
+  height: 80vh;
+  background: url("https://images.unsplash.com/photo-1541557435984-1c79685a082b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80")
+    center no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-text {
+  color: #febc1d;
+  text-transform: uppercase;
+  font-weight: 500;
+}

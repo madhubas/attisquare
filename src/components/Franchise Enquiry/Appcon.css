@@ -1,91 +1,12 @@
-#fieldset {
-  margin-top: 4%;
-  text-align: center;
-  color: rgb(224, 221, 221);
-
-  font-size: 18px;
+.faq {
+  margin: 120px 50px;
+  overflow-x: hidden;
 }
-.colu {
-  background-color: #00000091;
-  text-align: center;
-  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2),
-    0 20px 20px 0 rgba(0, 0, 0, 0.19);
-  max-width: 1200px;
-  height: 450px;
-  margin: auto;
-  padding-bottom: 50px;
-  /* transform: translate(4%, 50%); */
-
-  display: block;
-  border-radius: 50px 0 50px 0;
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  padding: 50px;
+.faqform {
+  padding: 0 30px;
+  background-color: rgba(0, 0, 0);
+  border-radius: 5px;
 }
-.colu:hover {
-  background-color: #1d1c1ce3;
-}
-#contact-title {
-  color: rgb(253, 253, 253);
-}
-::placeholder {
-  color: whitesmoke;
-}
-#contact-box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-image: url("../Home/images/_hvd1304_1\ \(1\).jpg") !important;
-  background-position: center;
-  background-size: cover;
-  height: 100vh;
-}
-option {
-  color: #000;
-  background-color: #f0bc1d;
-}
-
-#left,
-#right {
-  width: 100%;
-  padding: 12px 13px;
-  margin-bottom: 15%;
-  display: ruby-base;
-  border: none;
-  border-bottom: 2px solid rgba(243, 238, 238, 0.7);
-  color: whitesmoke;
-  background-color: transparent;
-  box-sizing: border-box;
-}
-
-.but {
-  background-color: white;
-  padding: 15px 18px;
-  margin-bottom: 50px;
-  margin-top: 10px;
-  text-align: center;
-  border: none;
-  border-radius: 10px 0px 10px 0px;
-  color: #f0bc1d;
-}
-.but:hover {
-  background-color: #f0bc1d;
-  color: white;
-}
-
-.form-main {
-  margin-top: 4%;
-}
-
-@media (max-width: 1024px) {
-  .but {
-    margin-left: 3%;
-    margin-top: auto;
-  }
-  .colu {
-    height: 1100px;
-    margin-top: 50px;
-  }
-  #contact-box {
-    height: auto;
-  }
+.faqaccordian {
+  padding: 0 30px;
 }
