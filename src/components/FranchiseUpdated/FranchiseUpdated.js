@@ -571,7 +571,7 @@ const FranchiseUpdated = () => {
                             width="120"
                           />
                         </div>
-                        <h2 class="card__title">Design</h2>
+                        <h2 class="card__title">Stand alone QSR</h2>
                       </div>
                       <div class="card__overlay"></div>
                       <div class="card__content">
@@ -596,7 +596,7 @@ const FranchiseUpdated = () => {
                             width="120"
                           />
                         </div>
-                        <h2 class="card__title">Code</h2>
+                        <h2 class="card__title">Stand alone Takeaway</h2>
                       </div>
                       <div class="card__overlay"></div>
                       <div class="card__content">
@@ -621,7 +621,7 @@ const FranchiseUpdated = () => {
                             width="120"
                           />
                         </div>
-                        <h2 class="card__title">Launch</h2>
+                        <h2 class="card__title">Kiosk</h2>
                       </div>
                       <div class="card__overlay"></div>
                       <div class="card__content">

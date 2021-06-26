@@ -84,6 +84,14 @@ header .navigation li a:hover::after {
   transform: scaleX(1);
 }
 
+.button-first {
+  background-color: #f0bc1d !important;
+}
+.button-first:hover {
+  background: transparent !important;
+  border: 1px solid #f0bc1d !important;
+  color: aliceblue !important;
+}
 /* 
 .content {
   position: relative;
@@ -131,7 +139,7 @@ header .navigation li a:hover::after {
 }
 
 .carousel-caption {
-  bottom: 28%;
+  z-index: 0 !important;
 }
 .carousel-indicators {
   display: none;

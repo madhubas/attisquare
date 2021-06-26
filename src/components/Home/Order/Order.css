@@ -1,14 +1,27 @@
-section {
-  min-height: 50vh;
+.order-section {
+  position: relative;
+  top: 87px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f0bc1d;
+  padding: 5%;
+  margin: 25px;
 }
+.party-img {
+  width: 600px;
+  height: 600px;
+}
+.right-content {
+  width: 50%;
+}
+
 .content-online {
   display: flex;
+  flex-direction: column;
   width: 100%;
   align-items: center;
   justify-content: space-evenly;
-  position: relative;
-  top: 87px;
-  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
 }
 .div-swiggy {
   padding: 10%;
@@ -34,27 +47,41 @@ section {
 }
 
 .button-zomato {
-  background-color: #ec4654;
+  background-color: #ec4654 !important;
   border: none;
 }
 .button-zomato:hover {
-  background-color: transparent;
-  border: #ec4654 1px solid;
+  background-color: transparent !important;
+  border: #ec4654 1px solid !important;
   color: #000;
 }
 
 .button-swiggy {
-  background-color: #fc8019;
+  background-color: #fc8019 !important;
   border: none;
 }
 .button-swiggy:hover {
-  background-color: transparent;
-  border: #fc8019 1px solid;
+  background-color: transparent !important;
+  border: #fc8019 1px solid !important;
   color: #000;
+}
+
+.link-hotel {
+  color: #000 !important;
+}
+.link-hotel:hover {
+  text-decoration: none !important;
 }
 
 @media (max-width: 991px) {
   .content-online {
     flex-direction: column;
+  }
+  .order-section {
+    flex-direction: column;
+  }
+  .party-img {
+    width: 100%;
+    height: auto;
   }
 }

@@ -18,11 +18,7 @@ const Footer = () => {
             <img src={fb} alt="" />
           </a>
         </li>
-        <li>
-          <a href="/">
-            <FaYoutube size={25} color="white" />
-          </a>
-        </li>
+
         <li>
           <a
             href="https://www.instagram.com/attisquare/"

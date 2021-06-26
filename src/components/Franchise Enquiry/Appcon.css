@@ -1,11 +1,10 @@
 .faq {
-  margin: 120px 50px;
-  overflow-x: hidden;
+  margin: 120px;
+  width: auto;
 }
+
 .faqform {
-  padding: 0 30px;
-  background-color: rgba(0, 0, 0);
-  border-radius: 5px;
+  padding: 0 70px;
 }
 .faqaccordian {
   padding: 0 30px;

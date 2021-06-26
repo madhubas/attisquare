@@ -7,10 +7,10 @@ function Contact() {
   return (
     <div className="faq">
       <Row>
-        <Col md={5} className="faqform">
+        <Col md={6} className="faqform">
           <Faqform />
         </Col>
-        <Col md={7} className="faqaccordian">
+        <Col md={6} className="faqaccordian">
           <Faq />
         </Col>
       </Row>
