@@ -304,57 +304,6 @@ const images = [
     imageName: image46,
     tag: "Food",
   },
-
-  {
-    id: "47",
-    imageName: "https://www.youtube.com/embed/IQk_R_-kCUw",
-    tag: "Videos",
-  },
-  {
-    id: "48",
-    imageName: "https://www.youtube.com/embed/41RHck26nnY",
-    tag: "Videos",
-  },
-  {
-    id: "49",
-    imageName: "https://www.youtube.com/embed/ecj-NstnxGA",
-    tag: "Videos",
-  },
-  {
-    id: "50",
-    imageName: "https://www.youtube.com/embed/u2GjqaBnarw",
-    tag: "Videos",
-  },
-  {
-    id: "51",
-    imageName: "https://www.youtube.com/embed/0VSdf2fECOI",
-    tag: "Videos",
-  },
-  {
-    id: "52",
-    imageName: "https://www.youtube.com/embed/_MOglXJv91g",
-    tag: "Videos",
-  },
-  {
-    id: "53",
-    imageName: "https://www.youtube.com/embed/Hy85-dyQ-Us",
-    tag: "Videos",
-  },
-  {
-    id: "54",
-    imageName: "https://www.youtube.com/embed/ljtDS5t2bgs",
-    tag: "Videos",
-  },
-  {
-    id: "55",
-    imageName: "https://www.youtube.com/embed/_Q4fgUUS9DA",
-    tag: "Videos",
-  },
-  {
-    id: "56",
-    imageName: "https://www.youtube.com/embed/Yn0UBqNCy_0",
-    tag: "Videos",
-  },
 ];
 
 function Gallery() {
