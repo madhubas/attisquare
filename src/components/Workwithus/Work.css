@@ -2,10 +2,11 @@
   margin-top: 85px;
 }
 .work-hero {
+  position: relative;
+  top: 87px;
   width: 100%;
-  height: 80vh;
-  background: url("https://images.unsplash.com/photo-1536257104079-aa99c6460a5a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80")
-    center no-repeat;
+  height: max-content;
+  background: #262626;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -25,11 +26,15 @@
   padding: 5%;
   background-color: #f0bc1d;
   color: rgb(79, 82, 79);
+  position: relative;
+  top: 87px;
 }
 .job-req h3 {
-  color: orangered;
+  color: rgb(0, 0, 0);
 }
-
+.article-section {
+  width: 700px;
+}
 .row {
   display: flex;
 }
@@ -37,7 +42,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: lightcyan;
+  background-color: rgb(255, 255, 255);
   box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.75);
@@ -49,6 +54,23 @@
   color: brown;
 }
 
+.read-more-btn {
+  display: inline-block;
+  background-color: #262626;
+  padding: 3%;
+  color: white;
+  border: none;
+}
+[type="button"],
+[type="reset"],
+[type="submit"],
+button {
+  -webkit-appearance: button;
+  border-bottom: none;
+  background-color: #262626;
+  color: #fff;
+}
+
 @media (max-width: 991px) {
   .req-cards {
     flex-direction: column;
@@ -56,12 +78,21 @@
   .col {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    margin: 6% auto;
+  }
+  .article-section {
+    width: 100%;
   }
 }
 
 .body1 {
   padding: 2%;
-  background-color: lightblue;
+  background: url("./Work.jpeg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  top: 87px;
 }
 
 #contact {
@@ -74,7 +105,6 @@
 }
 
 .article-section {
-  border: 3px solid aliceblue;
   background-color: #f0bc1d;
   display: flex;
   flex-direction: column;

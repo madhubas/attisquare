@@ -216,3 +216,12 @@ header .navigation li a:hover::after {
     z-index: 100;
   }
 }
+
+@media (max-width: 375px) {
+  .carousel-caption h2 {
+    font-size: 13px;
+  }
+  .carousel-caption p {
+    font-size: 11px;
+  }
+}

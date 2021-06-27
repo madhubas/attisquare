@@ -83,6 +83,9 @@ const Modal = (props) => {
           <a href="#contact" onClick={props.onClose} className="apply">
             Apply
           </a>
+          <a onClick={props.onClose} className="close-btn">
+            Close
+          </a>
         </div>
       </div>
     </div>

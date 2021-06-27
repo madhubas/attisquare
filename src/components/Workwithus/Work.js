@@ -31,7 +31,10 @@ const Work = () => {
                 </p>
                 <p>Location : Chennai</p>
                 <p>
-                  <button onClick={handleModal}> Read More</button>
+                  <button className="read-more-btn" onClick={handleModal}>
+                    {" "}
+                    Read More
+                  </button>
                 </p>
                 <p>
                   <Modal show={show} onClose={closeModal} />
@@ -46,7 +49,9 @@ const Work = () => {
                 </p>
                 <p>Location : Chennai</p>
                 <p>
-                  <button onClick={handleModal}>Read More</button>
+                  <button className="read-more-btn" onClick={handleModal}>
+                    Read More
+                  </button>
                 </p>
               </div>
             </Col>
@@ -58,7 +63,9 @@ const Work = () => {
                 </p>
                 <p>Location : Chennai</p>
                 <p>
-                  <button onClick={handleModal}>Read More</button>
+                  <button className="read-more-btn" onClick={handleModal}>
+                    Read More
+                  </button>
                 </p>
               </div>
             </Col>
@@ -72,7 +79,9 @@ const Work = () => {
                 </p>
                 <p>Location : Chennai</p>
                 <p>
-                  <button onClick={handleModal}>Read More</button>
+                  <button className="read-more-btn" onClick={handleModal}>
+                    Read More
+                  </button>
                 </p>
               </div>
             </Col>
@@ -84,7 +93,9 @@ const Work = () => {
                 </p>
                 <p>Location : Chennai</p>
                 <p>
-                  <button onClick={handleModal}>Read More</button>
+                  <button className="read-more-btn" onClick={handleModal}>
+                    Read More
+                  </button>
                 </p>
               </div>
             </Col>
@@ -96,7 +107,9 @@ const Work = () => {
                 </p>
                 <p>Location : Chennai</p>
                 <p>
-                  <button onClick={handleModal}>Read More</button>
+                  <button className="read-more-btn" onClick={handleModal}>
+                    Read More
+                  </button>
                 </p>
               </div>
             </Col>
@@ -112,13 +125,19 @@ const Work = () => {
               <h1>JOIN US</h1>
             </div>
 
-            <form action="" method="post" className="contactform">
+            <form
+              method="POST"
+              className="contactform"
+              action="https://formsubmit.co/madhubas2k@gmail.com"
+            >
+              <input type="hidden" name="_captcha" value="false" />
               <p className="input_wrapper">
                 <input
                   type="text"
-                  name="contact_nom"
+                  name="Name"
                   id="contact_nom"
                   placeholder="Name"
+                  required
                 />
               </p>
               <p className="input_wrapper">
@@ -127,39 +146,44 @@ const Work = () => {
                   name="contact_email"
                   id="contact_email"
                   placeholder="Email"
+                  required
                 />
               </p>
               <p className="input_wrapper">
                 <input
                   type="text"
-                  name="contact_sujet"
+                  name="contact_No"
                   id="contact_sujet"
                   placeholder="Phone No"
+                  required
                 />
               </p>
               <p className="input_wrapper">
                 <input
                   type="text"
-                  name="contact_sujet"
+                  name="city"
                   id="contact_sujet"
                   placeholder="City"
+                  required
                 />
               </p>
               <p className="input_wrapper">
                 <input
                   type="text"
-                  name="contact_sujet"
+                  name="Position"
                   id="contact_sujet"
                   placeholder="Position"
+                  required
                 />
               </p>
               <br />
-              <p>
+              <p className="input_wrapper">
                 <input
-                  type="file"
-                  className="file "
-                  name="contact_sujet"
-                  id=""
+                  type="text"
+                  name="resume"
+                  id="contact_sujet"
+                  placeholder="Insert your pdf drive link"
+                  required
                 />
               </p>
               <p className="textarea_wrapper">
@@ -167,12 +191,14 @@ const Work = () => {
                   name="contact_message"
                   id="contact_message"
                   placeholder="Message"
+                  required
                 ></textarea>
               </p>
+
+              <p>
+                <input type="submit" className="but" />
+              </p>
             </form>
-            <p>
-              <button className="sub-btn">Apply</button>
-            </p>
           </article>
         </section>
       </div>

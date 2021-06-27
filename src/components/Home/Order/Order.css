@@ -23,18 +23,15 @@
   align-items: center;
   justify-content: space-evenly;
 }
-.div-swiggy {
-  padding: 10%;
+.div-text h5 {
+  font-size: 30px;
 }
 .div-text {
   display: flex;
-  flex-direction: column;
   align-items: center;
-}
-
-.div-text h3 {
-  color: aliceblue;
-  margin-bottom: 50px;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 60px;
 }
 .zomato {
   color: #ec4654;
@@ -75,7 +72,13 @@
 
 @media (max-width: 991px) {
   .content-online {
-    flex-direction: column;
+    width: 100%;
+  }
+  .div-text {
+    margin-top: 50px;
+    width: 150px;
+    height: 150px;
+    font-size: 15px;
   }
   .order-section {
     flex-direction: column;
@@ -83,5 +86,15 @@
   .party-img {
     width: 100%;
     height: auto;
+  }
+  .div-text h5 {
+    font-size: 15px;
+  }
+  .zomato,
+  .swiggy {
+    font-size: 15px;
+  }
+  .div-text button {
+    height: 40px;
   }
 }

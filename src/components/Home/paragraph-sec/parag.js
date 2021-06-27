@@ -1,5 +1,4 @@
 import "./para.css";
-import { Button } from "react-bootstrap";
 
 function Parag() {
   return (
@@ -15,7 +14,6 @@ function Parag() {
           possimus, perferendis dicta voluptas maxime minus alias unde eos
           minima fuga quam totam.
         </p>
-        <Button className="button">Read More</Button>
       </div>
     </div>
   );

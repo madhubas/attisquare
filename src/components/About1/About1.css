@@ -1,5 +1,5 @@
 .parent {
-  background-image: url("../Home/images/_HVD1247_1-min.webp");
+  background: #262626;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -14,7 +14,7 @@
 .text-about {
   text-align: center;
   padding: 10%;
-  background-image: url("../Home/images/_HVD1270_1-min.webp");
+  background-image: url("../Home/images/_HVD1247_1-min.webp");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
@@ -27,12 +27,8 @@
   -webkit-backdrop-filter: blur(0px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
+  color: white;
   padding: 5%;
-}
-.parent2 {
-  background-image: url("../Home/images/_HVD1270_1-min.webp");
-  z-index: 10;
-  background-position: fixed;
 }
 
 .button:hover {
@@ -63,7 +59,7 @@
   text-align: justify;
 }
 .about1-title {
-  color: black;
+  color: white;
   margin-bottom: 16px;
   text-align: center;
 }
@@ -82,7 +78,7 @@
 }
 
 .about2-title {
-  color: black;
+  color: white;
   margin-bottom: 16px;
   text-align: center;
 }

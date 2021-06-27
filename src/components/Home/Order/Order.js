@@ -18,9 +18,9 @@ const Order = () => {
         <div className="content-online">
           <div className="div-swiggy">
             <div className="div-text">
-              <h3 style={{ color: "#000" }}>
+              <h5>
                 Order from <span className="zomato">Zomato</span>
-              </h3>
+              </h5>
               <Button className="button-zomato">
                 <a
                   className="link-hotel"
@@ -33,9 +33,9 @@ const Order = () => {
           </div>
           <div className="div-swiggy">
             <div className="div-text">
-              <h3 style={{ color: "#000" }}>
+              <h5>
                 Order from <span className="swiggy">Swiggy</span>
-              </h3>
+              </h5>
               <Button className="button-swiggy">
                 <a
                   className="link-hotel"

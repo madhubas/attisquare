@@ -227,6 +227,13 @@ const FranchiseUpdated = () => {
                               normcore freegan.
                             </h3>
                           </div>
+                          <div class="num">
+                            <h3>
+                              Ethical fixie man braid, pork belly shoreditch
+                              tumeric cloud bread migas chillwave raclette
+                              normcore freegan.
+                            </h3>
+                          </div>
                         </Col>
                         <Col>
                           <div class="num">
@@ -289,7 +296,7 @@ const FranchiseUpdated = () => {
                   <Row>
                     <Col>
                       <div class="container1">
-                        <div class="card">
+                        <div class="card1">
                           <div class="box">
                             <div class="content-card">
                               <h2>
@@ -308,7 +315,7 @@ const FranchiseUpdated = () => {
                     </Col>
                     <Col>
                       <div class="container1">
-                        <div class="card">
+                        <div class="card1">
                           <div class="box">
                             <div class="content-card">
                               <h2>
@@ -333,7 +340,7 @@ const FranchiseUpdated = () => {
                     </Col>
                     <Col>
                       <div class="container1">
-                        <div class="card">
+                        <div class="card1">
                           <div class="box">
                             <div class="content-card">
                               <h2>
@@ -355,7 +362,7 @@ const FranchiseUpdated = () => {
                     </Col>
                     <Col>
                       <div class="container1">
-                        <div class="card">
+                        <div class="card1">
                           <div class="box">
                             <div class="content-card">
                               <h2>
@@ -375,7 +382,7 @@ const FranchiseUpdated = () => {
                     </Col>
                     <Col>
                       <div class="container1">
-                        <div class="card">
+                        <div class="card1">
                           <div class="box">
                             <div class="content-card">
                               <h2>
@@ -397,7 +404,7 @@ const FranchiseUpdated = () => {
                     </Col>
                     <Col>
                       <div class="container1">
-                        <div class="card">
+                        <div class="card1">
                           <div class="box">
                             <div class="content-card">
                               <h2>
@@ -554,10 +561,7 @@ const FranchiseUpdated = () => {
                 <div className="text-center">
                   <i className="img-intro icon-checkmark-circle"></i>
                 </div>
-                <h3 className="head text-center">
-                  thanks for staying tuned!{" "}
-                  <span style={{ color: "f48260" }}>♥</span> Bootstrap
-                </h3>
+                <h3 className="head text-center">Franchise Model</h3>
                 <div class="container">
                   {/* <Row> */}
                   <ul class="cards">
@@ -568,15 +572,12 @@ const FranchiseUpdated = () => {
                           <img
                             src="https://image.flaticon.com/icons/svg/1496/1496034.svg"
                             alt=""
-                            width="120"
+                            width="90"
                           />
                         </div>
                         <h2 class="card__title">Stand alone QSR</h2>
-                      </div>
-                      <div class="card__overlay"></div>
-                      <div class="card__content">
-                        <h2>Design</h2>
-                        <p>
+
+                        <p className="conp">
                           Lorem, ipsum dolor sit amet consectetur adipisicing
                           elit. Neque ipsum veritatis id quia cupiditate sed
                           architecto aliquam nostrum unde nam minima voluptas
@@ -593,20 +594,16 @@ const FranchiseUpdated = () => {
                           <img
                             src="https://image.flaticon.com/icons/svg/1336/1336494.svg"
                             alt=""
-                            width="120"
+                            width="90"
                           />
                         </div>
                         <h2 class="card__title">Stand alone Takeaway</h2>
-                      </div>
-                      <div class="card__overlay"></div>
-                      <div class="card__content">
-                        <h2>Code</h2>
-                        <p>
-                          Dignissimos ipsam culpa vitae vel hic harum omnis
-                          doloremque debitis laudantium neque quos iure
-                          voluptates quidem ratione esse modi, rerum illum
-                          facere eius accusantium dolorem incidunt beatae
-                          officiis voluptatem? Nostrum.
+                        <p className="conp">
+                          Lorem, ipsum dolor sit amet consectetur adipisicing
+                          elit. Neque ipsum veritatis id quia cupiditate sed
+                          architecto aliquam nostrum unde nam minima voluptas
+                          dicta, beatae sint reprehenderit sit ducimus officiis
+                          ratione?
                         </p>
                       </div>
                     </li>
@@ -618,20 +615,16 @@ const FranchiseUpdated = () => {
                           <img
                             src="https://image.flaticon.com/icons/svg/478/478543.svg"
                             alt=""
-                            width="120"
+                            width="90"
                           />
                         </div>
                         <h2 class="card__title">Kiosk</h2>
-                      </div>
-                      <div class="card__overlay"></div>
-                      <div class="card__content">
-                        <h2>Launch</h2>
-                        <p>
-                          Asperiores, harum dignissimos at neque quaerat,
-                          excepturi, ipsa in consectetur blanditiis tempore
-                          error! Libero fuga possimus qui saepe temporibus
-                          praesentium, ut ratione facere rem distinctio, beatae
-                          omnis officiis illum animi.
+                        <p className="conp">
+                          Lorem, ipsum dolor sit amet consectetur adipisicing
+                          elit. Neque ipsum veritatis id quia cupiditate sed
+                          architecto aliquam nostrum unde nam minima voluptas
+                          dicta, beatae sint reprehenderit sit ducimus officiis
+                          ratione?
                         </p>
                       </div>
                     </li>

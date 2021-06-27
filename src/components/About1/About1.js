@@ -27,7 +27,7 @@ const About1 = () => {
       <div className="parent2">
         <div className="text-about">
           <div className="content-para">
-            <h2>Why we Stand Apart</h2>
+            <h2 className="about1-title">Why we Stand Apart</h2>
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi,
               porro facilis. Libero distinctio nihil ab animi id obcaecati,
@@ -37,7 +37,6 @@ const About1 = () => {
               Cupiditate laudantium aliquid, possimus, perferendis dicta
               voluptas maxime minus alias unde eos minima fuga quam totam.
             </p>
-            <Button className="button">Read More</Button>
           </div>
         </div>
       </div>
