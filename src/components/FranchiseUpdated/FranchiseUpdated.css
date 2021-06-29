@@ -272,7 +272,9 @@ li.active span.round-tabs.five {
 .nav-tabs > li a:hover {
   background: transparent;
 }
-
+.tab-content > .active {
+  margin-bottom: 10%;
+}
 .tab-pane {
   position: relative;
   padding-top: 50px;

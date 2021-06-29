@@ -5,6 +5,7 @@ import { GrStatusGood } from "react-icons/gr";
 import { GrSystem } from "react-icons/gr";
 import { GiGrowth } from "react-icons/gi";
 import { GiReceiveMoney } from "react-icons/gi";
+import { GiBreakingChain } from "react-icons/gi";
 import { Row, Col, Container } from "react-bootstrap";
 import { AiFillTags } from "react-icons/ai";
 import { BsFillPeopleFill } from "react-icons/bs";
@@ -20,6 +21,8 @@ import { MdAccountCircle } from "react-icons/md";
 import { GoLocation } from "react-icons/go";
 import { GoVerified } from "react-icons/go";
 import { GoTools } from "react-icons/go";
+import Process from "./Process/Process";
+
 const FranchiseUpdated = () => {
   const [active, setActive] = useState("home");
 
@@ -122,12 +125,9 @@ const FranchiseUpdated = () => {
                 </h3>
                 <p className="narrow text-center">
                   <div className="fran_para">
-                    Typically, Atti Square is very selective in choosing its
-                    franchising partners. While there is no set criteria, and
-                    franchisees can come from a wide array of professional
-                    backgrounds; they must all exhibit a strong commitment and
-                    desire to succeed. Experience in the food and beverage
-                    industry is essential along with the following:
+                    Atti Square believes in providing excellent business
+                    opportunities to entrepreneurs through franchises. We expect
+                    them to have the following criteria.
                   </div>
                   <br />
                   <br />
@@ -136,8 +136,8 @@ const FranchiseUpdated = () => {
                       <Col>
                         <GiPuzzle size={50} />
                         <br />
-                        1. Good people skills, including business, management
-                        and customer service skills.
+                        1.Strong commitment and relentless determination to
+                        succeed.
                         <br />
                       </Col>
 
@@ -145,8 +145,7 @@ const FranchiseUpdated = () => {
                       <Col>
                         <GrStatusGood size={50} />
                         <br />
-                        2. High personal standards: excellence, honesty and
-                        integrity.
+                        2.Share our mission and vision, and be innovative.
                         <br />
                       </Col>
                     </Row>
@@ -156,23 +155,37 @@ const FranchiseUpdated = () => {
                       <Col>
                         <GiGrowth size={50} />
                         <br />
-                        3. Stability and maturity.
+                        3. Professional standards - Integrity, Effort, and
+                        Enthusiasm.
                         <br />
                       </Col>
                       <Col>
                         <GrSystem size={50} />
                         <br />
-                        4. Ability to work within a system.
+                        4. Skills - Interpersonal, business, communication, and
+                        customer care.
                         <br />
                       </Col>
                     </Row>
                   </p>
+
                   <p className="points">
-                    <GiReceiveMoney size={50} />
-                    <br />
-                    5. Financial and commercial capacity to make their franchise
-                    a success.
-                    <br />
+                    <Row>
+                      <Col sm={12} lg={6}>
+                        <GiBreakingChain size={50} />
+                        <br />
+                        5. Flexibility and Maturity .
+                        <br />
+                        <br />
+                      </Col>
+
+                      <Col sm={12} lg={6}>
+                        <GiReceiveMoney size={50} />
+                        <br />
+                        6. Financial stability and dedication to growth .
+                        <br />
+                      </Col>
+                    </Row>
                   </p>
                   <br />
                   <p className="impor">
@@ -196,88 +209,50 @@ const FranchiseUpdated = () => {
                         <Col>
                           <div class="num">
                             <h3>
-                              Wolf snackwave cray mustache typewriter butcher
-                              tbh.
+                              Proper planning and execution is prioritized
                             </h3>
                           </div>
                           <div class="num">
                             <h3>
-                              Messenger bag normcore cardigan, brunch organic
-                              tumblr locavore street art.
+                              Store design and the interior layout is thoroughly
+                              planned
                             </h3>
                           </div>
                           <div class="num">
                             <h3>
-                              Echo park iPhone intelligentsia literally 8-bit
-                              pickled irony master cleanse activated charcoal
-                              yuccie slow-carb ennui.
+                              On-site training and full operational support are
+                              delivered
                             </h3>
                           </div>
+
                           <div class="num">
                             <h3>
-                              Marfa pinterest shaman literally tbh crucifix
-                              pop-up taiyaki tacos raw denim offal shoreditch
-                              jean shorts yr.
-                            </h3>
-                          </div>
-                          <div class="num">
-                            <h3>
-                              Ethical fixie man braid, pork belly shoreditch
-                              tumeric cloud bread migas chillwave raclette
-                              normcore freegan.
-                            </h3>
-                          </div>
-                          <div class="num">
-                            <h3>
-                              Ethical fixie man braid, pork belly shoreditch
-                              tumeric cloud bread migas chillwave raclette
-                              normcore freegan.
+                              Logistics and supply-chain are well established
                             </h3>
                           </div>
                         </Col>
                         <Col>
                           <div class="num">
                             <h3>
-                              Ethical fixie man braid, pork belly shoreditch
-                              tumeric cloud bread migas chillwave raclette
-                              normcore freegan.
+                              Vendor Management and Inventory management are
+                              provided
                             </h3>
                           </div>
 
                           <div class="num">
                             <h3>
-                              Ethical fixie man braid, pork belly shoreditch
-                              tumeric cloud bread migas chillwave raclette
-                              normcore freegan.
+                              Menu is organized and designed taking pricing into
+                              account
                             </h3>
                           </div>
                           <div class="num">
                             <h3>
-                              Ethical fixie man braid, pork belly shoreditch
-                              tumeric cloud bread migas chillwave raclette
-                              normcore freegan.
+                              Marketing Plan is arranged for promotion and
+                              advertisements
                             </h3>
                           </div>
                           <div class="num">
-                            <h3>
-                              Ethical fixie man braid, pork belly shoreditch
-                              tumeric cloud bread migas chillwave raclette
-                              normcore freegan.
-                            </h3>
-                          </div>
-                          <div class="num">
-                            <h3>
-                              Ethical fixie man braid, pork belly shoreditch
-                              tumeric cloud bread migas chillwave raclette
-                              normcore freegan.
-                            </h3>
-                          </div>
-                          <div class="num">
-                            <h3>
-                              Ethical fixie man braid, pork belly shoreditch
-                              tumeric cloud bread migas chillwave raclette
-                              normcore freegan.
-                            </h3>
+                            <h3>Daily reporting facility is allocated</h3>
                           </div>
                         </Col>
                       </Row>
@@ -302,12 +277,7 @@ const FranchiseUpdated = () => {
                               <h2>
                                 <AiFillTags />
                               </h2>
-                              <h3>Powerful Brand Association</h3>
-                              <p>
-                                When you operate as a ATTI SQUARE franchise, you
-                                enjoy all the privileges and awareness that come
-                                with the careful development of our brand
-                              </p>
+                              <h3>Not dependent on Skilled labor</h3>
                             </div>
                           </div>
                         </div>
@@ -321,8 +291,11 @@ const FranchiseUpdated = () => {
                               <h2>
                                 <BsFillPeopleFill />
                               </h2>
-                              <h3>Comprehensive Training</h3>
-                              <p>
+                              <h3>
+                                30+ outlets and an opportunity to break into the
+                                fastest-growing sector
+                              </h3>
+                              {/* <p>
                                 As a ATTI SQUARE franchisee, you will also be
                                 provided with technical and marketing support on
                                 a continued basis, through email, telephone,
@@ -332,7 +305,7 @@ const FranchiseUpdated = () => {
                                 business reviews, market development and general
                                 business coordination. Re-training at store is
                                 given every 3 months.
-                              </p>
+                              </p> */}
                             </div>
                           </div>
                         </div>
@@ -346,15 +319,18 @@ const FranchiseUpdated = () => {
                               <h2>
                                 <HiSpeakerphone />
                               </h2>
-                              <h3>Advertising and Marketing Programs</h3>
-                              <p>
+                              <h3>
+                                Supply of Quality ingredient and proprietary
+                                recipes{" "}
+                              </h3>
+                              {/* <p>
                                 As a ATTI SQUARE franchisee, you will benefit
                                 from our strong brand positioning and marketing
                                 expertise. Ongoing extensive advertising
                                 campaigns ensure that the ATTI SQUARE brand
                                 achieves maximum awareness and drives maximum
                                 footfall.
-                              </p>
+                              </p> */}
                             </div>
                           </div>
                         </div>
@@ -368,13 +344,13 @@ const FranchiseUpdated = () => {
                               <h2>
                                 <HiCubeTransparent />
                               </h2>
-                              <h3>New Products & Development</h3>
-                              <p>
+                              <h3>Extensive Marketing and Advertisements</h3>
+                              {/* <p>
                                 "Our menu is subject to continuing improvement
                                 and quality increases. All, to reduce cost and
                                 increase operational efficiency of existing menu
                                 items."
-                              </p>
+                              </p> */}
                             </div>
                           </div>
                         </div>
@@ -388,15 +364,15 @@ const FranchiseUpdated = () => {
                               <h2>
                                 <BsMap />
                               </h2>
-                              <h3>Site Selection & Development Assistance</h3>
-                              <p>
+                              <h3>End to end setup and exquisite training </h3>
+                              {/* <p>
                                 Should you choose to become a franchisee, we
                                 will assist you with site selection,
-                                construction and renovation, installation of
+                                // construction and renovation, installation of
                                 cooking systems & point of sale communication.
                                 Essentially, whole way through, from start to
                                 finish.
-                              </p>
+                              </p> */}
                             </div>
                           </div>
                         </div>
@@ -410,8 +386,8 @@ const FranchiseUpdated = () => {
                               <h2>
                                 <BsFillBarChartFill />
                               </h2>
-                              <h3>Operational & Management Support</h3>
-                              <p>
+                              <h3>Low investment; High Margins</h3>
+                              {/* <p>
                                 You will also be provided with technical and
                                 marketing support and a continued basis, through
                                 email, telephone, manual updates, as well as
@@ -419,7 +395,7 @@ const FranchiseUpdated = () => {
                                 ourselves available to visit your outlet for
                                 business reviews, market development and general
                                 business coordination.
-                              </p>
+                              </p> */}
                             </div>
                           </div>
                         </div>
@@ -435,122 +411,7 @@ const FranchiseUpdated = () => {
                 id="settings"
               >
                 <h3 className="head text-center">Process</h3>
-                <div class="timeline">
-                  <div class="timeline__event  animated fadeInUp delay-3s timeline__event--type1">
-                    <div class="timeline__event__icon ">01</div>
-                    <div class="timeline__event__date">
-                      <AiFillHeart size={30} />
-                    </div>
-                    <div class="timeline__event__content ">
-                      <div class="timeline__event__title">
-                        Show you are Intrested
-                      </div>
-                      <div class="timeline__event__description">
-                        <p>
-                          Lorem, ipsum dolor sit amet consectetur adipisicing
-                          elit. Vel, nam! Nam eveniet ut aliquam ab asperiores,
-                          accusamus iure veniam corporis incidunt reprehenderit
-                          accusantium id aut architecto harum quidem dolorem in!
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="timeline__event animated fadeInUp delay-2s timeline__event--type2">
-                    <div class="timeline__event__icon">02</div>
-                    <div class="timeline__event__date">
-                      <MdAccountCircle size={30} />
-                    </div>
-                    <div class="timeline__event__content">
-                      <div class="timeline__event__title">
-                        Register for a Franchise
-                      </div>
-                      <div class="timeline__event__description">
-                        <p>
-                          Lorem, ipsum dolor sit amet consectetur adipisicing
-                          elit. Vel, nam! Nam eveniet ut aliquam ab asperiores,
-                          accusamus iure veniam corporis incidunt reprehenderit
-                          accusantium id aut architecto harum quidem dolorem in!
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="timeline__event animated fadeInUp delay-1s timeline__event--type3">
-                    <div class="timeline__event__icon">03</div>
-                    <div class="timeline__event__date">
-                      <RiFilePaper2Line size={30} />
-                    </div>
-                    <div class="timeline__event__content">
-                      <div class="timeline__event__title">
-                        Agree on Terms & Condition
-                      </div>
-                      <div class="timeline__event__description">
-                        <p>
-                          Lorem, ipsum dolor sit amet consectetur adipisicing
-                          elit. Vel, nam! Nam eveniet ut aliquam ab asperiores,
-                          accusamus iure veniam corporis incidunt reprehenderit
-                          accusantium id aut architecto harum quidem dolorem in!
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="timeline__event animated fadeInUp timeline__event--type1">
-                    <div class="timeline__event__icon">04</div>
-                    <div class="timeline__event__date">
-                      <GoLocation size={30} />
-                    </div>
-                    <div class="timeline__event__content">
-                      <div class="timeline__event__title">
-                        Find an Ideal Location
-                      </div>
-                      <div class="timeline__event__description">
-                        <p>
-                          Lorem, ipsum dolor sit amet consectetur adipisicing
-                          elit. Vel, nam! Nam eveniet ut aliquam ab asperiores,
-                          accusamus iure veniam corporis incidunt reprehenderit
-                          accusantium id aut architecto harum quidem dolorem in!
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="timeline__event animated fadeInUp timeline__event--type2">
-                    <div class="timeline__event__icon">05</div>
-                    <div class="timeline__event__date">
-                      <GoVerified size={30} />
-                    </div>
-                    <div class="timeline__event__content">
-                      <div class="timeline__event__title">
-                        Approval of the location
-                      </div>
-                      <div class="timeline__event__description">
-                        <p>
-                          Lorem, ipsum dolor sit amet consectetur adipisicing
-                          elit. Vel, nam! Nam eveniet ut aliquam ab asperiores,
-                          accusamus iure veniam corporis incidunt reprehenderit
-                          accusantium id aut architecto harum quidem dolorem in!
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="timeline__event animated fadeInUp timeline__event--type3">
-                    <div class="timeline__event__icon">06</div>
-                    <div class="timeline__event__date">
-                      <GoTools size={30} />
-                    </div>
-                    <div class="timeline__event__content">
-                      <div class="timeline__event__title">
-                        We will help you setup
-                      </div>
-                      <div class="timeline__event__description">
-                        <p>
-                          Lorem, ipsum dolor sit amet consectetur adipisicing
-                          elit. Vel, nam! Nam eveniet ut aliquam ab asperiores,
-                          accusamus iure veniam corporis incidunt reprehenderit
-                          accusantium id aut architecto harum quidem dolorem in!
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                <Process />
               </div>
               <div
                 className={

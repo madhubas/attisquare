@@ -44,39 +44,6 @@ const Modal = (props) => {
             • Stock customer service stations with paper products or beverage
             preparation items.
             <br />
-            • Take customer orders and convey them to other employees for
-            preparation.
-            <br />
-            • Take out garbage.
-            <br />
-            • Demonstrate the use of retail equipment, such as espresso
-            machines.
-            <br />
-            • Wrap, label, or date food items for sale.
-            <br />
-            • Set up or restock product displays.
-            <br />
-            • Follow recipes to ensure food consistency.
-            <br />
-            • Keep work and dining areas clean, stocked and organized.
-            <br />
-            • Responsible for the Food & Beverage standards of serving customer.
-            <br />
-            • Does not leave the area of work without notifying the
-            cashier/Outlet in charge.
-            <br />
-            • Perform all side duties established by the outlet in charge.
-            <br />
-            • To be familiar with food and menu terminology.
-            <br />
-            • To follow the company policies and procedures and all food and
-            beverage standards.
-            <br />
-            • To ensure orders are thoroughly checked before serving to the
-            guest.
-            <br />
-            • To perform all other related duties as requested.
-            <br />
           </p>
         </div>
         <div className="modal-footer">

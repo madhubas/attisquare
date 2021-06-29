@@ -1,15 +1,15 @@
-export default [
+export const data = [
   {
     id: "1",
     imageName:
       "https://drive.google.com/uc?export=view&id=1rm4f-6JlcgqiERU_tYTzkrx27gpm2SWO",
-    tag: "Food",
+    tag: "Outlet",
   },
   {
     id: "2",
     imageName:
       "https://drive.google.com/uc?export=view&id=1S7UhjVl8CD8ip981jqyGCibELpnxyyUI",
-    tag: "Food",
+    tag: "Outlet",
   },
   {
     id: "3",
@@ -69,7 +69,7 @@ export default [
     id: "12",
     imageName:
       "https://drive.google.com/uc?export=view&id=1S0KfLZ57J845xvR7nG1kjpb13qZDr2GG",
-    tag: "Outlet",
+    tag: "Food",
   },
   {
     id: "13",
@@ -117,13 +117,13 @@ export default [
     id: "20",
     imageName:
       "https://drive.google.com/uc?export=view&id=1Q7Viy8olOleFBaGgNjqoLQSxdZ82VFAI",
-    tag: "Outlet",
+    tag: "Food",
   },
   {
     id: "21",
     imageName:
       "https://drive.google.com/uc?export=view&id=1-njdJCsZyLpCOTErfFscaMHnu1HEy8aL",
-    tag: "Outlet",
+    tag: "Food",
   },
   {
     id: "22",
@@ -231,7 +231,7 @@ export default [
     id: "39",
     imageName:
       "https://drive.google.com/uc?export=view&id=1CYBgO_KGtaEOuWhqhMo9CnGDyFxwdrNI",
-    tag: "Outlet",
+    tag: "Food",
   },
   {
     id: "40",

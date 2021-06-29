@@ -83,6 +83,14 @@
   text-align: center;
 }
 
+.highlighter {
+  background-color: #262626;
+  color: #f0bc1d;
+  padding: 5px;
+  line-height: 1.5;
+  width: 100%;
+}
+
 @media (max-width: 991px) {
   .parent1 {
     flex-direction: column;

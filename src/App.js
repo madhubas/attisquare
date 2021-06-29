@@ -11,7 +11,7 @@ import Footer from "./components/Footer/Footer";
 import About1 from "./components/About1/About1";
 import Loader from "./components/loader/load";
 import Work from "./components/Workwithus/Work";
-import Popup from "./components/Popup/Popup";
+// import Popup from "./components/Popup/Popup";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -38,7 +38,6 @@ function App() {
             <Route path="/gallery" component={Gallery} />
             <Route path="/contact" component={Contd} />
             <Route path="/workwithus" component={Work} />
-            <Route path="/popup" component={Popup} />
             <Footer />
           </div>
         )}

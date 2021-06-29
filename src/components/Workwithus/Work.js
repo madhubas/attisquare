@@ -36,9 +36,7 @@ const Work = () => {
                     Read More
                   </button>
                 </p>
-                <p>
-                  <Modal show={show} onClose={closeModal} />
-                </p>
+                <Modal show={show} onClose={closeModal} />
               </div>
             </Col>
             <Col sm={4}>
