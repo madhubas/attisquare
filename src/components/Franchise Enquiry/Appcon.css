@@ -1,20 +1,27 @@
 .faq {
-  margin-top: 120px;
+  margin-top: 90px;
   width: auto;
   overflow-x: hidden;
 }
 
 .faqform {
-  padding: 0 30px;
+  padding: 0 50px;
   width: 100%;
+  background: rgba(0, 0, 0);
+  border-radius: 5px;
 }
 .faqaccordian {
   padding: 0 30px;
   width: 100%;
+  background: url("../Gallery/webp/_HVD1247_1-min.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
 }
 @media (max-width: 600px) {
   .faq {
-    margin-top: 120px;
+    margin-top: 86px;
     width: 100%;
     display: flex;
     justify-content: center;

@@ -12,6 +12,7 @@ import About1 from "./components/About1/About1";
 import Loader from "./components/loader/load";
 import Work from "./components/Workwithus/Work";
 // import Popup from "./components/Popup/Popup";
+import Scroll from "./components/Scroll/Scroll";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -29,6 +30,7 @@ function App() {
           <Loader />
         ) : (
           <div>
+            <Scroll />
             <Navbar />
             <Route path="/" component={Home} exact />
             <Route path="/about" component={About1} />

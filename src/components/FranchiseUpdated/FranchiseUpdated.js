@@ -27,7 +27,7 @@ const FranchiseUpdated = () => {
   const [active, setActive] = useState("home");
 
   return (
-    <section style={{ background: "#efefe9" }} className="franchise-u">
+    <section className="franchise-u">
       <div>
         <div className="row">
           <div className="board">
@@ -36,7 +36,11 @@ const FranchiseUpdated = () => {
               <ul className="nav nav-tabs" id="myTab">
                 <div className="liner"></div>
                 <li className={` ${active === "home" ? "active" : " "}`}>
-                  <a data-toggle="tab" onClick={() => setActive("home")}>
+                  <a
+                    className="tab-click"
+                    data-toggle="tab"
+                    onClick={() => setActive("home")}
+                  >
                     <div className="tab-menu-content">
                       <span className="tab-title">Profile</span>
                       <span className="round-tabs one">
@@ -48,6 +52,7 @@ const FranchiseUpdated = () => {
 
                 <li className={active === "profile" ? "active" : " "}>
                   <a
+                    className="tab-click"
                     data-toggle="tab"
                     title="profile"
                     onClick={() => setActive("profile")}
@@ -65,7 +70,11 @@ const FranchiseUpdated = () => {
                   </a>
                 </li>
                 <li className={active === "messages" ? "active" : " "}>
-                  <a data-toggle="tab" onClick={() => setActive("messages")}>
+                  <a
+                    className="tab-click"
+                    data-toggle="tab"
+                    onClick={() => setActive("messages")}
+                  >
                     <div className="tab-menu-content">
                       <span className="tab-title">Benefits</span>
                       <span className="round-tabs three">
@@ -79,7 +88,11 @@ const FranchiseUpdated = () => {
                 </li>
 
                 <li className={active === "settings" ? "active" : " "}>
-                  <a data-toggle="tab" onClick={() => setActive("settings")}>
+                  <a
+                    className="tab-click"
+                    data-toggle="tab"
+                    onClick={() => setActive("settings")}
+                  >
                     <div className="tab-menu-content">
                       <span className="tab-title">Process</span>
                       <span className="round-tabs four">
@@ -94,6 +107,7 @@ const FranchiseUpdated = () => {
 
                 <li className={active === "doner" ? "active" : " "}>
                   <a
+                    className="tab-click"
                     data-toggle="tab"
                     title="Franchise Model"
                     onClick={() => setActive("doner")}
@@ -119,7 +133,7 @@ const FranchiseUpdated = () => {
                 }
                 id="home"
               >
-                <h3 className="head text-center">
+                <h3 className="head text-center fran_head">
                   Franchise Profile Requirements{" "}
                   <span style={{ color: "#f48260" }}>♥</span>
                 </h3>
@@ -143,7 +157,7 @@ const FranchiseUpdated = () => {
 
                       <br />
                       <Col>
-                        <GrStatusGood size={50} />
+                        <GrStatusGood size={50} className="white-icons" />
                         <br />
                         2.Share our mission and vision, and be innovative.
                         <br />
@@ -160,7 +174,7 @@ const FranchiseUpdated = () => {
                         <br />
                       </Col>
                       <Col>
-                        <GrSystem size={50} />
+                        <GrSystem size={50} className="white-icons" />
                         <br />
                         4. Skills - Interpersonal, business, communication, and
                         customer care.
@@ -201,7 +215,7 @@ const FranchiseUpdated = () => {
                 }
                 id="profile"
               >
-                <h3 className="head text-center">What We Do</h3>
+                <h3 className="head text-center fran_head">What We Do</h3>
                 <div className="what">
                   <div class="container5">
                     <div class="list5">
