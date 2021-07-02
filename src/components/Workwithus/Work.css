@@ -70,7 +70,12 @@ button {
   background-color: #262626;
   color: #fff;
 }
-
+/* #contact_sujet {
+  color: black;
+} */
+.input_wrapper input {
+  color: black;
+}
 @media (max-width: 991px) {
   .req-cards {
     flex-direction: column;

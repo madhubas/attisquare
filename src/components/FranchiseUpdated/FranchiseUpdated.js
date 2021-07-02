@@ -202,11 +202,6 @@ const FranchiseUpdated = () => {
                     </Row>
                   </p>
                   <br />
-                  <p className="impor">
-                    The Franchise Owner is Not Required to Participate in the
-                    Day-to-Day Operations on a Full Time Basis as Long as a
-                    Senior Manager is Appointed.
-                  </p>
                 </p>
               </div>
               <div
@@ -280,143 +275,46 @@ const FranchiseUpdated = () => {
                 }
                 id="messages"
               >
-                <h3 className="head text-center">Franchise Benefits</h3>
-                <Container>
-                  <Row>
-                    <Col>
-                      <div class="container1">
-                        <div class="card1">
-                          <div class="box">
-                            <div class="content-card">
-                              <h2>
-                                <AiFillTags />
-                              </h2>
-                              <h3>Not dependent on Skilled labor</h3>
-                            </div>
+                <h3 className="head text-center fran_head">
+                  Franchise Benefits
+                </h3>
+                <div className="what">
+                  <div class="container5">
+                    <div class="list5">
+                      <Row>
+                        <Col>
+                          <div class="num">
+                            <h3>Not dependent on Skilled labor</h3>
                           </div>
-                        </div>
-                      </div>
-                    </Col>
-                    <Col>
-                      <div class="container1">
-                        <div class="card1">
-                          <div class="box">
-                            <div class="content-card">
-                              <h2>
-                                <BsFillPeopleFill />
-                              </h2>
-                              <h3>
-                                30+ outlets and an opportunity to break into the
-                                fastest-growing sector
-                              </h3>
-                              {/* <p>
-                                As a ATTI SQUARE franchisee, you will also be
-                                provided with technical and marketing support on
-                                a continued basis, through email, telephone,
-                                manual updates as well as training at our
-                                headquarters in Mumbai. We will also make
-                                ourselves available to visit your outlet for
-                                business reviews, market development and general
-                                business coordination. Re-training at store is
-                                given every 3 months.
-                              </p> */}
-                            </div>
+                          <div class="num">
+                            <h3>
+                              {" "}
+                              30+ outlets and an opportunity to break into the
+                              fastest-growing sector
+                            </h3>
                           </div>
-                        </div>
-                      </div>
-                    </Col>
-                    <Col>
-                      <div class="container1">
-                        <div class="card1">
-                          <div class="box">
-                            <div class="content-card">
-                              <h2>
-                                <HiSpeakerphone />
-                              </h2>
-                              <h3>
-                                Supply of Quality ingredient and proprietary
-                                recipes{" "}
-                              </h3>
-                              {/* <p>
-                                As a ATTI SQUARE franchisee, you will benefit
-                                from our strong brand positioning and marketing
-                                expertise. Ongoing extensive advertising
-                                campaigns ensure that the ATTI SQUARE brand
-                                achieves maximum awareness and drives maximum
-                                footfall.
-                              </p> */}
-                            </div>
+                          <div class="num">
+                            <h3>
+                              Supply of Quality ingredient and proprietary
+                              recipes
+                            </h3>
                           </div>
-                        </div>
-                      </div>
-                    </Col>
-                    <Col>
-                      <div class="container1">
-                        <div class="card1">
-                          <div class="box">
-                            <div class="content-card">
-                              <h2>
-                                <HiCubeTransparent />
-                              </h2>
-                              <h3>Extensive Marketing and Advertisements</h3>
-                              {/* <p>
-                                "Our menu is subject to continuing improvement
-                                and quality increases. All, to reduce cost and
-                                increase operational efficiency of existing menu
-                                items."
-                              </p> */}
-                            </div>
+
+                          <div class="num">
+                            <h3>Extensive Marketing and Advertisements</h3>
                           </div>
-                        </div>
-                      </div>
-                    </Col>
-                    <Col>
-                      <div class="container1">
-                        <div class="card1">
-                          <div class="box">
-                            <div class="content-card">
-                              <h2>
-                                <BsMap />
-                              </h2>
-                              <h3>End to end setup and exquisite training </h3>
-                              {/* <p>
-                                Should you choose to become a franchisee, we
-                                will assist you with site selection,
-                                // construction and renovation, installation of
-                                cooking systems & point of sale communication.
-                                Essentially, whole way through, from start to
-                                finish.
-                              </p> */}
-                            </div>
+
+                          <div class="num">
+                            <h3>End to end setup and exquisite training </h3>
                           </div>
-                        </div>
-                      </div>
-                    </Col>
-                    <Col>
-                      <div class="container1">
-                        <div class="card1">
-                          <div class="box">
-                            <div class="content-card">
-                              <h2>
-                                <BsFillBarChartFill />
-                              </h2>
-                              <h3>Low investment; High Margins</h3>
-                              {/* <p>
-                                You will also be provided with technical and
-                                marketing support and a continued basis, through
-                                email, telephone, manual updates, as well as
-                                training at your own site. We will also make
-                                ourselves available to visit your outlet for
-                                business reviews, market development and general
-                                business coordination.
-                              </p> */}
-                            </div>
+                          <div class="num">
+                            <h3>Low investment; High Margin</h3>
                           </div>
-                        </div>
-                      </div>
-                    </Col>
-                  </Row>
-                </Container>
+                        </Col>
+                      </Row>
+                    </div>
+                  </div>
+                </div>
               </div>
               <div
                 className={
@@ -441,26 +339,7 @@ const FranchiseUpdated = () => {
                   {/* <Row> */}
                   <ul class="cards">
                     {/* <Col> */}
-                    <li class="card cards__item">
-                      <div class="card__frame">
-                        <div class="card__picture">
-                          <img
-                            src="https://image.flaticon.com/icons/svg/1496/1496034.svg"
-                            alt=""
-                            width="90"
-                          />
-                        </div>
-                        <h2 class="card__title">Stand alone QSR</h2>
 
-                        <p className="conp">
-                          Lorem, ipsum dolor sit amet consectetur adipisicing
-                          elit. Neque ipsum veritatis id quia cupiditate sed
-                          architecto aliquam nostrum unde nam minima voluptas
-                          dicta, beatae sint reprehenderit sit ducimus officiis
-                          ratione?
-                        </p>
-                      </div>
-                    </li>
                     {/* </Col>
                       <Col> */}
                     <li class="card cards__item">
@@ -472,7 +351,7 @@ const FranchiseUpdated = () => {
                             width="90"
                           />
                         </div>
-                        <h2 class="card__title">Stand alone Takeaway</h2>
+                        <h2 class="card__title">Elite</h2>
                         <p className="conp">
                           Lorem, ipsum dolor sit amet consectetur adipisicing
                           elit. Neque ipsum veritatis id quia cupiditate sed
@@ -508,7 +387,6 @@ const FranchiseUpdated = () => {
                   {/* </Row> */}
                 </div>
               </div>
-              <div className="clearfix"></div>
             </div>
           </div>
         </div>
@@ -518,3 +396,142 @@ const FranchiseUpdated = () => {
 };
 
 export default FranchiseUpdated;
+
+// <h3 className="head text-center">Franchise Benefits</h3>
+// <Container>
+//   <Row>
+//     <Col>
+//       <div class="container1">
+//         <div class="card1">
+//           <div class="box">
+//             <div class="content-card">
+//               <h2>
+//                 <AiFillTags />
+//               </h2>
+//               <h3>Not dependent on Skilled labor</h3>
+//             </div>
+//           </div>
+//         </div>
+//       </div>
+//     </Col>
+//     <Col>
+//       <div class="container1">
+//         <div class="card1">
+//           <div class="box">
+//             <div class="content-card">
+//               <h2>
+//                 <BsFillPeopleFill />
+//               </h2>
+//               <h3>
+//                 30+ outlets and an opportunity to break into the
+//                 fastest-growing sector
+//               </h3>
+//               {/* <p>
+//                 As a ATTI SQUARE franchisee, you will also be
+//                 provided with technical and marketing support on
+//                 a continued basis, through email, telephone,
+//                 manual updates as well as training at our
+//                 headquarters in Mumbai. We will also make
+//                 ourselves available to visit your outlet for
+//                 business reviews, market development and general
+//                 business coordination. Re-training at store is
+//                 given every 3 months.
+//               </p> */}
+//             </div>
+//           </div>
+//         </div>
+//       </div>
+//     </Col>
+//     <Col>
+//       <div class="container1">
+//         <div class="card1">
+//           <div class="box">
+//             <div class="content-card">
+//               <h2>
+//                 <HiSpeakerphone />
+//               </h2>
+//               <h3>
+//                 Supply of Quality ingredient and proprietary
+//                 recipes{" "}
+//               </h3>
+//               {/* <p>
+//                 As a ATTI SQUARE franchisee, you will benefit
+//                 from our strong brand positioning and marketing
+//                 expertise. Ongoing extensive advertising
+//                 campaigns ensure that the ATTI SQUARE brand
+//                 achieves maximum awareness and drives maximum
+//                 footfall.
+//               </p> */}
+//             </div>
+//           </div>
+//         </div>
+//       </div>
+//     </Col>
+//     <Col>
+//       <div class="container1">
+//         <div class="card1">
+//           <div class="box">
+//             <div class="content-card">
+//               <h2>
+//                 <HiCubeTransparent />
+//               </h2>
+//               <h3>Extensive Marketing and Advertisements</h3>
+//               {/* <p>
+//                 "Our menu is subject to continuing improvement
+//                 and quality increases. All, to reduce cost and
+//                 increase operational efficiency of existing menu
+//                 items."
+//               </p> */}
+//             </div>
+//           </div>
+//         </div>
+//       </div>
+//     </Col>
+//     <Col>
+//       <div class="container1">
+//         <div class="card1">
+//           <div class="box">
+//             <div class="content-card">
+//               <h2>
+//                 <BsMap />
+//               </h2>
+//               <h3>End to end setup and exquisite training </h3>
+//               {/* <p>
+//                 Should you choose to become a franchisee, we
+//                 will assist you with site selection,
+//                 // construction and renovation, installation of
+//                 cooking systems & point of sale communication.
+//                 Essentially, whole way through, from start to
+//                 finish.
+//               </p> */}
+//             </div>
+//           </div>
+//         </div>
+//       </div>
+//     </Col>
+//     <Col>
+//       <div class="container1">
+//         <div class="card1">
+//           <div class="box">
+//             <div class="content-card">
+//               <h2>
+//                 <BsFillBarChartFill />
+//               </h2>
+//               <h3>Low investment; High Margins</h3>
+//               {/* <p>
+//                 You will also be provided with technical and
+//                 marketing support and a continued basis, through
+//                 email, telephone, manual updates, as well as
+//                 training at your own site. We will also make
+//                 ourselves available to visit your outlet for
+//                 business reviews, market development and general
+//                 business coordination.
+//               </p> */}
+//             </div>
+//           </div>
+//         </div>
+//       </div>
+//     </Col>
+//   </Row>
+// </Container>
+// </div>

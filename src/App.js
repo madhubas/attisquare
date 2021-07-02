@@ -13,6 +13,7 @@ import Loader from "./components/loader/load";
 import Work from "./components/Workwithus/Work";
 // import Popup from "./components/Popup/Popup";
 import Scroll from "./components/Scroll/Scroll";
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   const [loading, setLoading] = useState(false);

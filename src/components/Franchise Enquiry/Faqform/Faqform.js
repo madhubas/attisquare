@@ -10,16 +10,10 @@ const Faqform = () => {
         <h5>ENTER YOUR REQUEST FOR INITIAL MEETING</h5>
         <hr className="sep" />
         <div className="group">
-          <input type="text" required="required" name="firstname" />
+          <input type="text" required="required" name="name" />
           <span className="highlight"></span>
           <span className="bar"></span>
-          <label>First Name</label>
-        </div>
-        <div className="group">
-          <input type="text" required="required" name="lastname" />
-          <span className="highlight"></span>
-          <span className="bar"></span>
-          <label>Last Name</label>
+          <label>Name</label>
         </div>
         <div className="group">
           <input type="text" required="required" name="number" />

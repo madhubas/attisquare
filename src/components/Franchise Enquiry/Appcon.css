@@ -13,11 +13,7 @@
 .faqaccordian {
   padding: 0 30px;
   width: 100%;
-  background: url("../Gallery/webp/_HVD1247_1-min.webp");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: white;
+  /* color: white; */
 }
 @media (max-width: 600px) {
   .faq {

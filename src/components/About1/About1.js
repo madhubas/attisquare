@@ -12,7 +12,7 @@ const About1 = () => {
           <h2 className="about1-title">Who We Are</h2>
           <p className="about1-content">
             The story of Atti Square begins as a result of an unbridled passion
-            to serve high-quality scrumptious Shwarmas with an exceptionally
+            to serve high-quality scrumptious Shawarmas with an exceptionally
             delicious taste and proper hygiene at an affordable cost.
             <br />
             <br />
@@ -28,10 +28,10 @@ const About1 = () => {
             name.
             <br />
             <br />
-            <span className="highlighter">
+            <span>
               {" "}
-              We were also the first to launch the authentic ‘Rumalishawarma’ in
-              the market.
+              We were also the first to launch the authentic ‘Rumali's shawarma’
+              in the market.
             </span>
             <br />
           </p>
@@ -46,7 +46,7 @@ const About1 = () => {
             <h2 className="about1-title">Why we Stand Apart</h2>
             <p>
               We were the first to serve{" "}
-              <span className="highlighter">
+              <span>
                 Shawarmas in Chennai at an affordable cost of just Rs.49 with a
                 complimentary juice.
               </span>{" "}
@@ -77,9 +77,7 @@ const About1 = () => {
             on quality and hygiene.
             <br />
             <br />
-            <span className="highlighter">
-              "Keep Calm and Enjoy our Shawarma"
-            </span>
+            <span>"Keep Calm and Enjoy our Shawarma"</span>
           </p>
         </div>
       </div>

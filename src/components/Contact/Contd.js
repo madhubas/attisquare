@@ -14,13 +14,14 @@ const Contd = () => {
             <div className="directors">
               <h2 className="h2-title">Contact Us</h2>
               <div className="address">
-                <h2 className="h2-title">ADDRESS1</h2>
+                <h2 className="h2-title">ADDRESS</h2>
 
                 <p className="contact-content">
                   Old No 79 , New, no 167, Eldams Rd, Teynampet, Chennai, Tamil
                   Nadu 600018
                   <br />
-                  <h2 className="h2-title">ADDRESS2</h2>
+                  <br />
+                  {/* <h2 className="h2-title">ADDRESS2</h2> */}
                   No 722, 558, Thiruvottiyur High Rd, Korukkupet, Old
                   Washermanpet, Chennai, Tamil Nadu 600021
                   <br />
@@ -31,7 +32,10 @@ const Contd = () => {
         </Col>
         <Col md={6}>
           <div className="map">
-            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=133OjlGT9hih0ugXj3svesIQrwVK6FHcE"></iframe>
+            <iframe
+              src="https://www.google.com/maps/d/u/0/embed?mid=133OjlGT9hih0ugXj3svesIQrwVK6FHcE"
+              title="google-map"
+            ></iframe>
           </div>
         </Col>
       </Row>

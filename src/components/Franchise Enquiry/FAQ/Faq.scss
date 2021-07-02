@@ -84,7 +84,7 @@ $lightgray: #e5e5e5;
     }
     + .accordion-content {
       opacity: 1;
-      max-height: 9em;
+      max-height: 30em;
       transition: all 200ms linear;
       will-change: opacity, max-height;
     }
@@ -97,6 +97,11 @@ $lightgray: #e5e5e5;
     will-change: opacity, max-height;
   }
   p {
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 2em 0;
+  }
+  li {
     font-size: 1rem;
     font-weight: 300;
     margin: 2em 0;

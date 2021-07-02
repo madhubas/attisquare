@@ -4,8 +4,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url("../images/_HVD1247_1-min.webp") center no-repeat;
-  background-size: cover;
+  background: url("../../Gallery/webp/_HVD1275_1-min.webp") center no-repeat;
+  background-size: contain;
   background-attachment: fixed;
   padding: 100px auto;
   height: 70vh;

@@ -1,8 +1,8 @@
 import React from "react";
 import "./Modal.css";
 
-const Modal = (props) => {
-  if (!props.show) {
+const Modal3 = (props) => {
+  if (!props.show3) {
     return null;
   }
 
@@ -10,26 +10,11 @@ const Modal = (props) => {
     <div className="modal" onClick={props.onClose}>
       <div className="modal-content" onClick={(e) => e.stopPropagation()}>
         <div className="modal-header">
-          <h4 className="modal-title">KITCHEN STAFF</h4>
-          {/* {props.title} */}
+          <h4 className="modal-title">Operational Manager</h4>
         </div>
         <div className="modal-body">
           <p>
-            {/* {props.children} */}
             Experience: More than 1-year experience in Café/Hotel industry
-            <br />
-            • Prepare or serve hot or cold beverages, such as tea, coffee,
-            espresso drinks, blended coffees etc.
-            <br />
-            • Clean or sanitize work areas, utensils, or equipment.
-            <br />
-            • Clean service or seating areas.
-            <br />
-            • Check temperatures of freezers, refrigerators, or heating
-            equipment to ensure proper functioning.
-            <br />
-            • Describe menu items to customers or suggest products that might
-            appeal to them.
             <br />
             • Order, receive, or stock supplies or retail products.
             <br />
@@ -59,4 +44,4 @@ const Modal = (props) => {
   );
 };
 
-export default Modal;
+export default Modal3;

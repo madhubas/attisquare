@@ -49,16 +49,37 @@ const Faq = () => {
               }
             >
               <span class="accordion-title">
-                WHAT IS ATTI SQUARE'S FRANCHISE?
+                1. WHAT IS ATTI SQUARE'S FRANCHISE?
               </span>
               <span class="icon" aria-hidden="true"></span>
             </button>
             <div class="accordion-content">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Elementum sagittis vitae et leo duis ut. Ut tortor pretium
-                viverra suspendisse potenti.
+                At AttiSquare,Our Prime aim is treat the customers of all
+                category, Our Menu is designed meticulously in order to give the
+                best price.All our menu are been priced Pocket friendly. Atti
+                Square isanunique and innovative quick service restaurant
+                concept that brings the Lebanese traditional Shawarma to the
+                modern day lifestyle in a genuine and tasty way.
+              </p>
+              <p>
+                Atti SquareShawarma offers a variety of choices and ability to
+                customize high-end quality Shawarma.
+              </p>
+              <p>
+                It’ssuccess is due to many factors including cleanliness,
+                authenticity, consistency and modernity in quality and service.
+                Atti Square targets food conscious customers who are looking for
+                the taste, healthiness, quality and value of their meal.
+              </p>
+              <p>
+                AttiSquare objective is to expand nationally and globally while
+                preserving its originality and quality and to achieve optimal
+                return on investment and value growth in the industry.
+              </p>
+              <p>
+                The size of a typicalAtti Square is between 100 sqft to 500 sqft
+                with a footfall of 150 to 300 customers per day.
               </p>
             </div>
           </div>
@@ -91,16 +112,19 @@ const Faq = () => {
               }
             >
               <span class="accordion-title">
-                HOW MUCH DOES THE FRANCHISE COST?
+                2. HOW MUCH DOES THE FRANCHISE COST?
               </span>
               <span class="icon" aria-hidden="true"></span>
             </button>
             <div class="accordion-content">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Elementum sagittis vitae et leo duis ut. Ut tortor pretium
-                viverra suspendisse potenti.
+                Franchise fee structure may vary according to the Prototype
+                chosen. One of our Franchise expert will assist you with all
+                informations during the initial meeting. Please send your
+                enquiry to franchise@attisquare.com.Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua. Elementum sagittis vitae et leo
+                duis ut. Ut tortor pretium viverra suspendisse potenti.
               </p>
             </div>
           </div>
@@ -133,16 +157,18 @@ const Faq = () => {
               }
             >
               <span class="accordion-title">
-                WILL I HAVE AN EXCLUSIVE TERRITORY?{" "}
+                3. HOW MUCH IS THE FEE FOR CONTINUING SUPPORT SERVICES “ROYALTY
+                FEE”?{" "}
               </span>
               <span class="icon" aria-hidden="true"></span>
             </button>
             <div class="accordion-content">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Elementum sagittis vitae et leo duis ut. Ut tortor pretium
-                viverra suspendisse potenti.
+                The continuing services, or “royalty fee,” is 6% of your gross
+                sales and is paid monthly. This fee entitles you to use the Atti
+                Square service mark, use of distinctive system, marketing
+                assistance, ongoing business development and counseling, and
+                other benefits that come with being an Atti Square franchisee.
               </p>
             </div>
           </div>
@@ -175,17 +201,14 @@ const Faq = () => {
               }
             >
               <span class="accordion-title">
-                HOW MUCH TRAINING IS PROVIDED IN THE ATTI SQUARE FRANCHISE
-                SYSTEM?
+                4. How to contact AttiSquar Brand for Franchise?
               </span>
               <span class="icon" aria-hidden="true"></span>
             </button>
             <div class="accordion-content">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Elementum sagittis vitae et leo duis ut. Ut tortor pretium
-                viverra suspendisse potenti.
+                You can contact them through email – franchise@attisquare.com or
+                call them at +91-
               </p>
             </div>
           </div>
@@ -218,16 +241,20 @@ const Faq = () => {
               }
             >
               <span class="accordion-title">
-                WHAT IS THE TERM OF THE FRANCHISE AGREEMENT?
+                5. What is the difference between AttiSquare and other Shawarma
+                shops?{" "}
               </span>
               <span class="icon" aria-hidden="true"></span>
             </button>
             <div class="accordion-content">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Elementum sagittis vitae et leo duis ut. Ut tortor pretium
-                viverra suspendisse potenti.
+                Atti Square has unique flavors of shawarma priced at nominal
+                range.Atti Square offers complimentary drinks with all its
+                shawarma.
+              </p>
+              <p>
+                Atti Square is the first in Chennai to introduce Rumali
+                Shawarmaa{" "}
               </p>
             </div>
           </div>
@@ -260,16 +287,57 @@ const Faq = () => {
               }
             >
               <span class="accordion-title">
-                WHAT ARE THE SUPPORT SERVICES PROVIDED BY THE FRANCHISE SYSTEM?
+                6. WHAT ARE THE SUPPORT SYSTEMS PROVIDED BY ATTI SQUARE ?{" "}
               </span>
               <span class="icon" aria-hidden="true"></span>
             </button>
             <div class="accordion-content">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Elementum sagittis vitae et leo duis ut. Ut tortor pretium
-                viverra suspendisse potenti.
+                In addition to field support, members of Atti Squa r e
+                organization will provide the services listed below:
+              </p>
+              <ul>
+                <li>
+                  Operational Support -- Atti Square Management will provide
+                  ongoing training and support in many areas critical to the
+                  success of the franchisee's business, including unit
+                  operations and maintenance, customer-service techniques,
+                  product ordering, suggested pricing guidelines, and
+                  administrative procedures.
+                </li>
+                <li>
+                  Site Selection -- Prior to approving a site for Atti Square
+                  outlet, Atti Square Management will provide franchisees with
+                  clear guidelines for a suitable location. Atti Square will
+                  require franchisees to follow these instructions to ensure
+                  that an appropriate site is located.
+                </li>
+                <li>
+                  Marketing Support -- Atti Square Management coordinates
+                  development of advertising materials and strategies for the
+                  benefit of all members of the franchise network.{" "}
+                </li>
+                <li>
+                  Accounting/Audit/Legal -- Reporting directly to
+                  administration, this department is responsible for the
+                  financial and legal oversight of franchisees.
+                </li>
+                <li>
+                  Ongoing Research and Development -- Atti Square Management
+                  continues to research methods and techniques for franchise
+                  operations that enhance unit-level profitability.{" "}
+                </li>
+                <li>
+                  Overall Program Oversight -- Atti Square Management provides
+                  the overall coordination and planning for the Atti Square
+                  franchise system.
+                </li>
+              </ul>
+              <p>
+                Manpower Guarantee – Atti Square in a way unique promises on the
+                Man power.It assures to provide manpower in all the situations
+                no matter what.N number of Manpower shall be provided during the
+                Agreed period.
               </p>
             </div>
           </div>
@@ -301,15 +369,14 @@ const Faq = () => {
                     })
               }
             >
-              <span class="accordion-title">WHAT IS MY NEXT STEP?</span>
+              <span class="accordion-title">7. WHAT IS MY NEXT STEP?</span>
               <span class="icon" aria-hidden="true"></span>
             </button>
             <div class="accordion-content">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Elementum sagittis vitae et leo duis ut. Ut tortor pretium
-                viverra suspendisse potenti.
+                Simply complete the Franchise Application Form and return it to
+                us. Upon receiving the form we will contact you. If you have any
+                questions, in the meantime, please feel free to call us.
               </p>
             </div>
           </div>

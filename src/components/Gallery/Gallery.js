@@ -9,16 +9,16 @@ import image2 from "./webp/_hvd1082.webp";
 import image3 from "./webp/_hvd1084.webp";
 import image4 from "./webp/_hvd1086.webp";
 import image5 from "./webp/_hvd1104_1.webp";
-import image6 from "./webp/_hvd1106_1.webp";
+//import image6 from "./webp/_hvd1106_1.webp";
 import image7 from "./webp/_hvd1115_1.webp";
 import image8 from "./webp/_hvd1120_1.webp";
 import image9 from "./webp/_hvd1127_1.webp";
-import image10 from "./webp/_hvd1128_1.webp";
+//import image10 from "./webp/_hvd1128_1.webp";
 import image11 from "./webp/_hvd1137_1.webp";
-import image12 from "./webp/_hvd1150_1.webp";
+//import image12 from "./webp/_hvd1150_1.webp";
 import image13 from "./webp/_hvd1152_1.webp";
 import image14 from "./webp/_hvd1153_1.webp";
-import image15 from "./webp/_hvd1156_1.webp";
+//import image15 from "./webp/_hvd1156_1.webp";
 import image16 from "./webp/_hvd1158_1.webp";
 import image17 from "./webp/_hvd1160_1.webp";
 import image18 from "./webp/_hvd1163_1.webp";
@@ -99,11 +99,11 @@ const images = [
     imageName: image5,
     tag: "Food",
   },
-  {
-    id: "6",
-    imageName: image6,
-    tag: "Food",
-  },
+  // {
+  //   id: "6",
+  //   imageName: image6,
+  //   tag: "Food",
+  // },
   {
     id: "7",
     imageName: image7,
@@ -119,21 +119,21 @@ const images = [
     imageName: image9,
     tag: "Food",
   },
-  {
-    id: "10",
-    imageName: image10,
-    tag: "Food",
-  },
+  // {
+  //   id: "10",
+  //   imageName: image10,
+  //   tag: "Food",
+  // },
   {
     id: "11",
     imageName: image11,
     tag: "Food",
   },
-  {
-    id: "12",
-    imageName: image12,
-    tag: "Food",
-  },
+  // {
+  //   id: "12",
+  //   imageName: image12,
+  //   tag: "Food",
+  // },
   {
     id: "13",
     imageName: image13,
@@ -144,11 +144,11 @@ const images = [
     imageName: image14,
     tag: "Food",
   },
-  {
-    id: "15",
-    imageName: image15,
-    tag: "Food",
-  },
+  // {
+  //   id: "15",
+  //   imageName: image15,
+  //   tag: "Food",
+  // },
   {
     id: "16",
     imageName: image16,

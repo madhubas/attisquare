@@ -14,8 +14,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 700px;
-  height: 820px;
+  width: auto;
+  height: auto;
   background-color: white;
   padding: 3%;
 }

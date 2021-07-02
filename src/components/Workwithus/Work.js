@@ -1,16 +1,43 @@
 import React, { useState } from "react";
 import "./Work.css";
 import { Row, Col } from "react-bootstrap";
-import Modal from "./../Modal/Modal";
+import Modal1 from "./../Modal/Modal1";
+import Modal2 from "./../Modal/Modal2";
+import Modal3 from "./../Modal/Modal3";
+import Modal4 from "./../Modal/Modal4";
 const Work = () => {
-  const [show, setShow] = useState(false);
+  const [show1, setShow1] = useState(false);
+  const [show2, setShow2] = useState(false);
+  const [show3, setShow3] = useState(false);
+  const [show4, setShow4] = useState(false);
 
-  var handleModal = () => {
-    setShow(true);
+  var handleModal1 = () => {
+    setShow1(true);
   };
 
-  var closeModal = () => {
-    setShow(false);
+  var closeModal1 = () => {
+    setShow1(false);
+  };
+  var handleModal2 = () => {
+    setShow2(true);
+  };
+
+  var closeModal2 = () => {
+    setShow2(false);
+  };
+  var handleModal3 = () => {
+    setShow3(true);
+  };
+
+  var closeModal3 = () => {
+    setShow3(false);
+  };
+  var handleModal4 = () => {
+    setShow4(true);
+  };
+
+  var closeModal4 = () => {
+    setShow4(false);
   };
 
   return (
@@ -23,7 +50,7 @@ const Work = () => {
         <h3>WE ARE LOOKING FOR POTENTIAL CANDIDATES FOR BELOW POSITIONS.</h3>
         <div className="req-cards">
           <Row>
-            <Col sm={4}>
+            <Col sm={6}>
               <div className="req-card">
                 <h4>Kitchen Staff</h4>
                 <p>
@@ -31,84 +58,59 @@ const Work = () => {
                 </p>
                 <p>Location : Chennai</p>
                 <p>
-                  <button className="read-more-btn" onClick={handleModal}>
+                  <button className="read-more-btn" onClick={handleModal1}>
                     {" "}
                     Read More
                   </button>
                 </p>
-                <Modal show={show} onClose={closeModal} />
+                <Modal1 show1={show1} onClose={closeModal1} />
               </div>
             </Col>
-            <Col sm={4}>
+            <Col sm={6}>
               <div className="req-card">
-                <h4>Kitchen Staff</h4>
+                <h4>Shawarma Chef</h4>
                 <p>
                   Experience: More than 1-year experience in Café/Hotel industry
                 </p>
                 <p>Location : Chennai</p>
                 <p>
-                  <button className="read-more-btn" onClick={handleModal}>
+                  <button className="read-more-btn" onClick={handleModal2}>
                     Read More
                   </button>
                 </p>
-              </div>
-            </Col>
-            <Col sm={4}>
-              <div className="req-card">
-                <h4>Kitchen Staff</h4>
-                <p>
-                  Experience: More than 1-year experience in Café/Hotel industry
-                </p>
-                <p>Location : Chennai</p>
-                <p>
-                  <button className="read-more-btn" onClick={handleModal}>
-                    Read More
-                  </button>
-                </p>
+                <Modal2 show2={show2} onClose={closeModal2} />
               </div>
             </Col>
           </Row>
           <Row>
-            <Col sm={4}>
+            <Col sm={6}>
               <div className="req-card">
-                <h4>Kitchen Staff</h4>
+                <h4>Operational Manager</h4>
                 <p>
                   Experience: More than 1-year experience in Café/Hotel industry
                 </p>
                 <p>Location : Chennai</p>
                 <p>
-                  <button className="read-more-btn" onClick={handleModal}>
+                  <button className="read-more-btn" onClick={handleModal3}>
                     Read More
                   </button>
                 </p>
+                <Modal3 show3={show3} onClose={closeModal3} />
               </div>
             </Col>
-            <Col sm={4}>
+            <Col sm={6}>
               <div className="req-card">
-                <h4>Kitchen Staff</h4>
+                <h4>Outlet Supervisor</h4>
                 <p>
                   Experience: More than 1-year experience in Café/Hotel industry
                 </p>
                 <p>Location : Chennai</p>
                 <p>
-                  <button className="read-more-btn" onClick={handleModal}>
+                  <button className="read-more-btn" onClick={handleModal4}>
                     Read More
                   </button>
                 </p>
-              </div>
-            </Col>
-            <Col sm={4}>
-              <div className="req-card">
-                <h4>Kitchen Staff</h4>
-                <p>
-                  Experience: More than 1-year experience in Café/Hotel industry
-                </p>
-                <p>Location : Chennai</p>
-                <p>
-                  <button className="read-more-btn" onClick={handleModal}>
-                    Read More
-                  </button>
-                </p>
+                <Modal4 show4={show4} onClose={closeModal4} />
               </div>
             </Col>
           </Row>

@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;500&display=swap");
-
+@import url("//db.onlinewebfonts.com/c/9509721b92e52705b215f286f4a41675?family=ultimatum+bold");
 * {
-  font-family: "Poppins", sans-serif;
+  /* font-family: "ultimatum bold"; */
   scroll-behavior: smooth;
+  /* font-size: 20px; */
 }
 
 ::-webkit-scrollbar {

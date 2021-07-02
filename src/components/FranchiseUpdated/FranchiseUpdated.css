@@ -5,7 +5,7 @@
   width: 100%;
   margin: 90px auto;
   height: auto;
-  background: url("../Gallery/webp/_HVD1275_1-min.webp") no-repeat center;
+  background: url("../Gallery/webp/_HVD1275_1-min.webp") no-repeat;
   background-position: center;
   background-size: cover;
 
@@ -514,6 +514,13 @@ li::after {
   display: block;
 }
 
+#doner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
 /* Animations for button */
 
 @import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css);
@@ -962,7 +969,7 @@ a.animated-button.thar-three:before {
 
 .cards {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 32px;
   margin: 0;
   padding: 0;
@@ -1171,9 +1178,13 @@ a.animated-button.thar-three:before {
 
   transition: 0.25s;
 }
+.ico {
+  font-size: 15px;
+  letter-spacing: 20px;
+}
 .container5 .list5 .num:nth-child(1):before {
-  content: "1";
-  font-size: 4rem;
+  content: "\26E3";
+  font-size: 5rem;
   font-weight: bold;
   color: #000;
   width: 2rem;
@@ -1181,7 +1192,7 @@ a.animated-button.thar-three:before {
   transition: 0.25s;
 }
 .container5 .list5 .num:nth-child(2):before {
-  content: "2";
+  content: "\26E3";
   font-size: 4rem;
   font-weight: bold;
   color: #000;
@@ -1190,7 +1201,7 @@ a.animated-button.thar-three:before {
   transition: 0.25s;
 }
 .container5 .list5 .num:nth-child(3):before {
-  content: "3";
+  content: "\26E3";
   font-size: 4rem;
   font-weight: bold;
   color: #000;
@@ -1199,7 +1210,7 @@ a.animated-button.thar-three:before {
   transition: 0.25s;
 }
 .container5 .list5 .num:nth-child(4):before {
-  content: "4";
+  content: "\26E3";
   font-size: 4rem;
   font-weight: bold;
   color: #000;
@@ -1208,7 +1219,7 @@ a.animated-button.thar-three:before {
   transition: 0.25s;
 }
 .container5 .list5 .num:nth-child(5):before {
-  content: "5";
+  content: "\26E3";
   font-size: 4rem;
   font-weight: bold;
   color: #000;
@@ -1217,7 +1228,7 @@ a.animated-button.thar-three:before {
   transition: 0.25s;
 }
 .container5 .list5 .num:nth-child(6):before {
-  content: "6";
+  content: "\26E3";
   font-size: 4rem;
   font-weight: bold;
   color: #000;
@@ -1226,7 +1237,7 @@ a.animated-button.thar-three:before {
   transition: 0.25s;
 }
 .container5 .list5 .num:nth-child(7):before {
-  content: "7";
+  content: "\26E3";
   font-size: 4rem;
   font-weight: bold;
   color: #000;
@@ -1235,7 +1246,7 @@ a.animated-button.thar-three:before {
   transition: 0.25s;
 }
 .container5 .list5 .num:nth-child(8):before {
-  content: "8";
+  content: "\26E3";
   font-size: 4rem;
   font-weight: bold;
   color: #000;
@@ -1244,7 +1255,7 @@ a.animated-button.thar-three:before {
   transition: 0.25s;
 }
 .container5 .list5 .num:nth-child(9):before {
-  content: "9";
+  content: "\26E3";
   font-size: 4rem;
   font-weight: bold;
   color: #000;
@@ -1253,7 +1264,7 @@ a.animated-button.thar-three:before {
   transition: 0.25s;
 }
 .container5 .list5 .num:nth-child(10):before {
-  content: "10";
+  content: "\26E3";
   font-size: 4rem;
   font-weight: bold;
   color: #000;

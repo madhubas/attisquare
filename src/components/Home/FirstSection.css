@@ -8,7 +8,7 @@
 } */
 
 .slider-image {
-  height: 80vh;
+  height: 90vh !important;
   background-position: center;
 }
 header {
@@ -29,9 +29,6 @@ header .logo {
   position: relative;
   height: 40px;
   width: auto;
-}
-header img {
-  /* filter: invert(1); */
 }
 
 header .navigation {
