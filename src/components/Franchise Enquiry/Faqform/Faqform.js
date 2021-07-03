@@ -6,7 +6,7 @@ const Faqform = () => {
     <div class="wrapper">
       <form action="https://formsubmit.co/madhubas2k@gmail.com" method="POST">
         <input type="hidden" name="_captcha" value="false" />
-        <h2>OWN A FRANCHISE</h2>
+        <h2 className="page-title">OWN A FRANCHISE</h2>
         <h5>ENTER YOUR REQUEST FOR INITIAL MEETING</h5>
         <hr className="sep" />
         <div className="group">
@@ -28,10 +28,16 @@ const Faqform = () => {
           <label>Email</label>
         </div>
         <div className="group">
-          <input type="text" required="required" name="Country" />
+          <select>
+            <option disabled selected>
+              Investment Range
+            </option>
+            <option value="10-20 Lakh">10-20 Lakh</option>
+            <option value="20-30 Lakh">20-30 Lakh</option>
+          </select>
           <span className="highlight"></span>
           <span className="bar"></span>
-          <label>Intrested Country</label>
+          {/*<label>Investestment Range</label> */}
         </div>
         <div className="group">
           <textarea

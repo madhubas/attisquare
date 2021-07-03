@@ -1,80 +1,58 @@
-/* Grids --------------------------------------------*/
-
-/* .container-img {
+.body2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding-bottom: 65px;
+}
+.colo {
+  background-color: rgba(0, 0, 0);
+}
+.colo h2 {
+  text-align: center;
+  padding: 70px;
+  color: #f0bc1d;
+}
+.image-container {
   display: grid;
-  grid-gap: 30px;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(12, 150px);
-  margin: 20px auto;
-  max-width: 50%;
-  padding: 3rem 1rem;
-  height: auto;
-} */
+  grid-template-rows: repeat(3, 1fr);
+  width: 850px;
+  grid-gap: 0.5rem;
+}
 
-/* Grid images --------------------------------------------*/
-.item-camp {
-  /* display: none; */
-  width: 100%;
-  height: 100%;
-  padding: 30px;
+.image-container .image {
+  position: relative;
+  padding-bottom: 100%;
 }
-.img {
-  width: 400px;
-  height: 400px;
-}
-/* .img {
-  border-radius: 1rem;
+
+.image-container .image img {
   height: 100%;
   width: 100%;
-  object-fit: contain;
-}
-.item {
-  height: 30vh;
-  margin: 50px;
-} */
-
-/* Grid items --------------------------------------------*/
-
-/* .item-4 {
-  grid-row: 2/5;
+  object-fit: cover;
+  left: 0;
+  position: absolute;
+  top: 0;
 }
 
-.item-5 {
-  grid-row: 2/6;
+.image-container .image img:nth-of-type(1) {
+  filter: grayscale(1) brightness(40%);
 }
 
-.item-6 {
-  grid-row: 2/4;
+.image-container .image img:nth-of-type(2) {
+  clip-path: var(--clip-start);
+  transition: clip-path 0.5s;
 }
 
-.item-7 {
-  grid-row: 5/6;
+.image-container .image:hover img:nth-of-type(2) {
+  clip-path: var(--clip-end);
 }
-
-.item-8 {
-  grid-row: 4/6;
+@media (max-width: 991px) {
+  .body2 {
+    min-height: 50vh;
+  }
+  .image-container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
-
-.item-9 {
-  grid-row: 6/11;
-}
-
-.item-10 {
-  grid-row: 6/7;
-}
-
-.item-11 {
-  grid-row: 6/9;
-}
-
-.item-12 {
-  grid-row: 7/12;
-}
-
-.item-13 {
-  grid-row: 9/13;
-}
-
-.item-14 {
-  grid-row: 11/13;
-} */

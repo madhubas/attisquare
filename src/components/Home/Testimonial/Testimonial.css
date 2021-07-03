@@ -1,6 +1,6 @@
 .testimonial-section {
   position: relative;
-  top: 87px;
+  margin-top: 87px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,7 +14,6 @@
 
 .test-content {
   background: rgba(255, 255, 255, 0.25);
-
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(0px);
   border-radius: 10px;
@@ -85,5 +84,18 @@
   }
   .test-text-box h3 {
     font-size: 18px;
+  }
+  .testimonial-section {
+    position: relative;
+    margin-top: 87px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("../../Gallery/webp/_HVD1275_1-min.webp") center no-repeat;
+    /* background-size: contain; */
+    background-attachment: fixed;
+    padding: 100px 20px;
+    height: 70vh;
+    color: rgb(0, 0, 0);
   }
 }

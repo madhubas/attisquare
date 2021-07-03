@@ -43,7 +43,7 @@ const Work = () => {
   return (
     <section className="work">
       <div className="work-hero" id="works">
-        <h1 className="hero-text">Work With Us</h1>
+        <h1 className="hero-text page-title">Work With Us</h1>
       </div>
 
       <div className="job-req">

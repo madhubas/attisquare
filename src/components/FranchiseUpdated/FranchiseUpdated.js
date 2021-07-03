@@ -22,6 +22,7 @@ import { GoLocation } from "react-icons/go";
 import { GoVerified } from "react-icons/go";
 import { GoTools } from "react-icons/go";
 import Process from "./Process/Process";
+import Modal_F from "./Franchise_modal/Modal_F";
 
 const FranchiseUpdated = () => {
   const [active, setActive] = useState("home");
@@ -31,7 +32,7 @@ const FranchiseUpdated = () => {
       <div>
         <div className="row">
           <div className="board">
-            <h2>Franchise</h2>
+            <h2 className="pag page-title">Franchise</h2>
             <div className="board-inner">
               <ul className="nav nav-tabs" id="myTab">
                 <div className="liner"></div>
@@ -147,7 +148,7 @@ const FranchiseUpdated = () => {
                   <br />
                   <p className="points">
                     <Row>
-                      <Col>
+                      <Col lg={6}>
                         <GiPuzzle size={50} />
                         <br />
                         1.Strong commitment and relentless determination to
@@ -156,7 +157,7 @@ const FranchiseUpdated = () => {
                       </Col>
 
                       <br />
-                      <Col>
+                      <Col sm={12} lg={6}>
                         <GrStatusGood size={50} className="white-icons" />
                         <br />
                         2.Share our mission and vision, and be innovative.
@@ -329,63 +330,10 @@ const FranchiseUpdated = () => {
                 className={
                   "tab-pane fade" + (active === "doner" ? "in active" : " ")
                 }
-                id="doner"
+                id="settings"
               >
-                <div className="text-center">
-                  <i className="img-intro icon-checkmark-circle"></i>
-                </div>
-                <h3 className="head text-center">Franchise Model</h3>
-                <div class="container">
-                  {/* <Row> */}
-                  <ul class="cards">
-                    {/* <Col> */}
-
-                    {/* </Col>
-                      <Col> */}
-                    <li class="card cards__item">
-                      <div class="card__frame">
-                        <div class="card__picture">
-                          <img
-                            src="https://image.flaticon.com/icons/svg/1336/1336494.svg"
-                            alt=""
-                            width="90"
-                          />
-                        </div>
-                        <h2 class="card__title">Elite</h2>
-                        <p className="conp">
-                          Lorem, ipsum dolor sit amet consectetur adipisicing
-                          elit. Neque ipsum veritatis id quia cupiditate sed
-                          architecto aliquam nostrum unde nam minima voluptas
-                          dicta, beatae sint reprehenderit sit ducimus officiis
-                          ratione?
-                        </p>
-                      </div>
-                    </li>
-                    {/* </Col>
-                      <Col> */}
-                    <li class="card cards__item">
-                      <div class="card__frame">
-                        <div class="card__picture">
-                          <img
-                            src="https://image.flaticon.com/icons/svg/478/478543.svg"
-                            alt=""
-                            width="90"
-                          />
-                        </div>
-                        <h2 class="card__title">Kiosk</h2>
-                        <p className="conp">
-                          Lorem, ipsum dolor sit amet consectetur adipisicing
-                          elit. Neque ipsum veritatis id quia cupiditate sed
-                          architecto aliquam nostrum unde nam minima voluptas
-                          dicta, beatae sint reprehenderit sit ducimus officiis
-                          ratione?
-                        </p>
-                      </div>
-                    </li>
-                    {/* </Col> */}
-                  </ul>
-                  {/* </Row> */}
-                </div>
+                <h3 className="head text-center">Modal</h3>
+                <Modal_F />
               </div>
             </div>
           </div>

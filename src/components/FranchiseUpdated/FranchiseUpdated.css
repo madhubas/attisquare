@@ -22,7 +22,10 @@
   color: white;
 }
 .tab-title {
-  font-size: 11px;
+  font-size: 10px;
+}
+.pag {
+  margin-top: 8 rem;
 }
 .tab-menu-content {
   display: flex;

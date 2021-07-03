@@ -1,9 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;500&display=swap");
-@import url("//db.onlinewebfonts.com/c/9509721b92e52705b215f286f4a41675?family=ultimatum+bold");
 * {
-  /* font-family: "ultimatum bold"; */
+  font-family: "Montserrat", sans-serif;
   scroll-behavior: smooth;
-  /* font-size: 20px; */
+  /* font-size: 23px; */
 }
 
 ::-webkit-scrollbar {
@@ -14,4 +12,11 @@
 ::-webkit-scrollbar-thumb {
   background: linear-gradient(transparent, #f0bc1d);
   border-radius: 10px;
+}
+.page-title {
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  font-size: 28px;
+  text-transform: uppercase;
+  color: #f0bc1d;
 }

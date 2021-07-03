@@ -14,7 +14,7 @@ $lightgray: #e5e5e5;
 }
 .accordion {
   .accordion-item {
-    border-bottom: 1px solid #e5e5e5;
+    border: none;
     button[aria-expanded="true"] {
       border-bottom: 1px solid #fff;
     }

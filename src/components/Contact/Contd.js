@@ -12,7 +12,7 @@ const Contd = () => {
         <Col md={6}>
           <div id="con-card">
             <div className="directors">
-              <h2 className="h2-title">Contact Us</h2>
+              <h2 className="h2-title page-title">Contact Us</h2>
               <div className="address">
                 <h2 className="h2-title">ADDRESS</h2>
 

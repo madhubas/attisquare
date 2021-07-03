@@ -17,7 +17,7 @@ const Faq = () => {
   return (
     <div className="faqacc">
       <div class="container-faq">
-        <h2 className="faq-title">FREQUENTLY ASKED QUESTIONS</h2>
+        <h2 className="faq-title page-title">FREQUENTLY ASKED QUESTIONS</h2>
         <hr className="sep" />{" "}
         <div class="accordion">
           <div class="accordion-item">

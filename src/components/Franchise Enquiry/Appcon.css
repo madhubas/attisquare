@@ -1,26 +1,32 @@
 .faq {
-  margin-top: 90px;
+  margin-top: 87px;
   width: auto;
   overflow-x: hidden;
 }
 
 .faqform {
   padding: 0 50px;
-  width: 100%;
+  width: 50%;
   background: rgba(0, 0, 0);
   border-radius: 5px;
 }
 .faqaccordian {
   padding: 0 30px;
-  width: 100%;
-  /* color: white; */
+  width: 50%;
+  border: none;
 }
-@media (max-width: 600px) {
+@media (max-width: 991px) {
   .faq {
     margin-top: 86px;
-    width: 100%;
+
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .faqform {
+    width: 100%;
+  }
+  .faqaccordian {
+    width: 100%;
   }
 }

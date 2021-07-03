@@ -6,7 +6,7 @@ import { Button } from "react-bootstrap";
 const About1 = () => {
   return (
     <div className="parent">
-      <h1 className="parent-title">About Us</h1>
+      <h1 className="parent-title page-title">About Us</h1>
       <div className="parent1">
         <div className="child-content">
           <h2 className="about1-title">Who We Are</h2>
@@ -43,7 +43,7 @@ const About1 = () => {
       <div className="parent2">
         <div className="text-about">
           <div className="content-para">
-            <h2 className="about1-title">Why we Stand Apart</h2>
+            <h2 className="about1-title ">Why we Stand Apart</h2>
             <p>
               We were the first to serve{" "}
               <span>
