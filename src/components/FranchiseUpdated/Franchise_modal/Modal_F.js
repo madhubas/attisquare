@@ -31,8 +31,8 @@ const Modal_F = () => {
                   alt="Stand Alone Takeaway"
                 />
               </div>
-              <p class="franchise__modal--title">Stand alone takeaway</p>
-              <p class="franchise__modal--text">Area - 100 to 120 sq.ft</p>
+              <p class="franchise__modal--title">Elite</p>
+              <p class="franchise__modal--text">Area - Above 200 sq.ft</p>
             </div>
             {/* <!-- end card --> */}
           </Col>
@@ -46,7 +46,7 @@ const Modal_F = () => {
                 />
               </div>
               <p class="franchise__modal--title">Kiosk</p>
-              <p class="franchise__modal--text">Area - 50 to 80 sq.ft </p>
+              <p class="franchise__modal--text">Area - 70 to 120 sq.ft </p>
             </div>
           </Col>
           {/* <!-- end card --> */}
