@@ -17,13 +17,13 @@ const FirstSection = () => {
         <Carousel.Caption>
           <div className="content">
             <div className="textBox">
-              <h2>Taste the Feeling</h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
-                aperiam necessitatibus corporis recusandae ipsum ad nisi sint
-                soluta iusto ratione, reiciendis explicabo officiis nesciunt
-                odit libero delectus ea reprehenderit amet.
-              </p>
+              <h2 className="heading-main">
+                Taste the Best, Tender, Juicilicious Flavour in Every B!te
+              </h2>
+              <h4 className="heading-sub">
+                One Stop Shop For Your Chicken Cravings
+              </h4>
+
               <Button className="button-first">Read More</Button>
             </div>
           </div>
@@ -40,5 +40,4 @@ const FirstSection = () => {
     </Carousel>
   );
 };
-
 export default FirstSection;

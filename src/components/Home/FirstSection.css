@@ -101,6 +101,10 @@ header .navigation li a:hover::after {
 .carousel-caption {
   z-index: 0 !important;
 }
+h2.heading-main {
+  color: #ffbf00 !important;
+}
+
 .carousel-indicators {
   display: none;
 }

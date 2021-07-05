@@ -285,31 +285,41 @@ const FranchiseUpdated = () => {
                       <Row>
                         <Col>
                           <div class="num">
+                            <h3>Powerful Brand Association</h3>
+                          </div>
+                          <div class="num">
+                            <h3> A to Z Product Supply</h3>
+                          </div>
+                          <div class="num">
+                            <h3>Manpower Guarantee</h3>
+                          </div>
+
+                          <div class="num">
+                            <h3>Advertising and Marketing Programs</h3>
+                          </div>
+
+                          <div class="num">
                             <h3>Not dependent on Skilled labor</h3>
                           </div>
                           <div class="num">
                             <h3>
-                              {" "}
-                              30+ outlets and an opportunity to break into the
-                              fastest-growing sector
+                              Centralized Supply – Uniform Taste and Quality
                             </h3>
                           </div>
                           <div class="num">
-                            <h3>
-                              Supply of Quality ingredient and proprietary
-                              recipes
-                            </h3>
-                          </div>
-
-                          <div class="num">
-                            <h3>Extensive Marketing and Advertisements</h3>
-                          </div>
-
-                          <div class="num">
-                            <h3>End to end setup and exquisite training </h3>
+                            <h3>New Products & Development</h3>
                           </div>
                           <div class="num">
-                            <h3>Low investment; High Margin</h3>
+                            <h3>Site Selection & Development Assistance</h3>
+                          </div>
+                          <div class="num">
+                            <h3>Operational & Management Support</h3>
+                          </div>
+                          <div class="num">
+                            <h3>Low investment; High Margins</h3>
+                          </div>
+                          <div class="num">
+                            <h3>Accounts & Control System</h3>
                           </div>
                         </Col>
                       </Row>

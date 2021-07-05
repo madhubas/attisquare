@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./Popup.css";
-
+import popup from "./popup image 1.jpeg";
 const Popup = () => {
   const [show, setShow] = useState(false);
   useEffect(() => {
@@ -16,12 +16,15 @@ const Popup = () => {
     <div
       id="popupMain"
       style={{ display: `${show === true ? "block" : "none"}` }}
+      onClick={closePopup}
     >
-      <div id="popup">
-        <img
-          src="https://drive.google.com/uc?export=view&id=1v1ywfFwS7i88eWr95cK-NmW-Jechiygx"
-          alt="popup"
-        />
+      <div
+        id="popup"
+        onClick={(e) => {
+          e.stopPropagation();
+        }}
+      >
+        <img src={popup} alt="popup" />
         <button id="submitId" onClick={closePopup}>
           &times;
         </button>
